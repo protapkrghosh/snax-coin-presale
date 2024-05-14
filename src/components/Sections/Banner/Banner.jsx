@@ -77,19 +77,19 @@ const Banner = () => {
                     <div className="flex justify-between bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1 text-white">
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Days</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">36</p>
+                        <p className="ml-[8px] text-[43px] lg:tracking-[1.98px]">36</p>
                       </div>
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Hours</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">09</p>
+                        <p className="ml-[13px] text-[43px] lg:tracking-[1.98px]">09</p>
                       </div>
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Minutes</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">53</p>
+                        <p className="ml-[23px] text-[43px] lg:tracking-[1.98px]">53</p>
                       </div>
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Second</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">02</p>
+                        <p className="ml-[20px] text-[43px] lg:tracking-[1.98px]">02</p>
                       </div>
                     </div>
 
