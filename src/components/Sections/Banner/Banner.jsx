@@ -26,8 +26,8 @@ const Banner = () => {
 
   return (
     <div className="mt-[-80px]">
-      <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[550px] xl:h-auto 2xl:h-[105vh] w-full hidden md:block" />
-      <div className="2xl:-mt-[810px]">
+      <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[550px] xl:h-auto 2xl:h-[110vh] w-full hidden md:block" />
+      <div className="2xl:-mt-[850px]">
         <Container>
           <div className="lg:flex justify-between">
             {/* banner text section  */}
