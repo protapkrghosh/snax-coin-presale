@@ -119,14 +119,14 @@ const NavBar = () => {
 
               <div className="block md:hidden">
                 <Link to="home" smooth={true} offset={-30} duration={600}>
-                  <Button className="bg-gradient-to-l from-[#F8B515] hover:from-[#f8b415ec] to-[#0FC1C7] hover:to-[#0fc1c7e8] text-[#000] xl:text-[20px] lg:leading-[30px] lg:tracking-[0.8px] font-normal">Connect</Button>
+                  <Button className="bg-gradient-to-l from-[#F8B515] hover:from-[#f8b415ec] to-[#0FC1C7] hover:to-[#0fc1c7e8] text-[#000] xl:text-[20px] lg:leading-[30px] lg:tracking-[0.8px] font-normal rounded-[10px]">Connect</Button>
                 </Link>
               </div>
             </ul>
 
             <div className="md:block hidden">
               <Link to="home" smooth={true} offset={-30} duration={600}>
-                <Button className="bg-gradient-to-l from-[#F8B515] hover:from-[#f8b415ec] to-[#0FC1C7] hover:to-[#0fc1c7e8] text-[#000] xl:text-[20px] lg:leading-[30px] lg:tracking-[0.8px] font-normal">Connect</Button>
+                <Button className="bg-gradient-to-l from-[#F8B515] hover:from-[#f8b415ec] to-[#0FC1C7] hover:to-[#0fc1c7e8] text-[#000] xl:text-[20px] lg:leading-[30px] lg:tracking-[0.8px] font-normal rounded-[10px]">Connect</Button>
               </Link>
             </div>
           </div>
