@@ -170,12 +170,12 @@ const Banner = () => {
 
                     {/* Button */}
                     <div className="xl:flex justify-between gap-x-6 mt-7 mb-8">
-                      <Button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</Button>
+                      <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</button>
 
                       <div className="relative xl:w-1/2">
-                        <img src={icon4} alt="Image" className="w-[25px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
+                        <img src={icon4} alt="Image" className="w-[26px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
 
-                        <Button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] pl-10 2xl:pl-10 py-6 2xl:py-7 mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</Button>
+                        <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] pl-10 2xl:pl-[54px] py-6 2xl:py-[12px] px-[10px] mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</button>
                       </div>
                     </div>
 
