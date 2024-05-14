@@ -64,12 +64,12 @@ const Banner = () => {
 
             {/* Buy now card */}
             <div className="w-[50%] flex justify-end">
-              <div className="bg-[#] bgBlur">
+              <div className="bg-[#] mt-[-70px] bgBlur">
                 <div className="flex justify-end">
                   <img src={photoFrame} alt="Image" className="w-[550px]" />
                 </div>
 
-                <div className="mt-[-750px]">
+                <div className="mt-[-730px]">
                   <div className="md:w-2/3 lg:w-[540px] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px] text-[#000]">
                     <h3 className="text-center lg:text-[22px] xl:text-[25px] 2xl:text-[28px] mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
@@ -77,19 +77,19 @@ const Banner = () => {
                     <div className="flex justify-between bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1 text-white">
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Days</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">36</p>
+                        <p className="ml-[8px] text-[43px] lg:tracking-[1.98px]">36</p>
                       </div>
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Hours</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">09</p>
+                        <p className="ml-[13px] text-[43px] lg:tracking-[1.98px]">09</p>
                       </div>
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Minutes</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">53</p>
+                        <p className="ml-[23px] text-[43px] lg:tracking-[1.98px]">53</p>
                       </div>
                       <div className="font-semibold">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Second</p>
-                        <p className="text-[43px] lg:tracking-[1.98px]">02</p>
+                        <p className="ml-[20px] text-[43px] lg:tracking-[1.98px]">02</p>
                       </div>
                     </div>
 
@@ -170,12 +170,12 @@ const Banner = () => {
 
                     {/* Button */}
                     <div className="xl:flex justify-between gap-x-6 mt-7 mb-8">
-                      <Button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</Button>
+                      <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</button>
 
                       <div className="relative xl:w-1/2">
-                        <img src={icon4} alt="Image" className="w-[25px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
+                        <img src={icon4} alt="Image" className="w-[26px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
 
-                        <Button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] pl-10 2xl:pl-10 py-6 2xl:py-7 mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</Button>
+                        <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] pl-10 2xl:pl-[54px] py-6 2xl:py-[12px] px-[10px] mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</button>
                       </div>
                     </div>
 
