@@ -6,6 +6,16 @@ import toast from 'react-hot-toast';
 import { IoCopy } from "react-icons/io5";
 import { MdLibraryAddCheck } from "react-icons/md";
 import { Button } from "@/components/ui/button";
+import icon1 from '@/assets/banner/Group1.png'
+import icon2 from '@/assets/banner/Group.png'
+import icon3 from '@/assets/banner/Group3.png'
+import icon4 from '@/assets/banner/Group2.png'
+import icon5 from '@/assets/banner/Group4.png'
+import line from '@/assets/banner/Line 12.png'
+import faqIcon from '@/assets/banner/Group 845.png'
+import { Progress } from "@/components/ui/progress"
+import { IoMdInformationCircleOutline } from "react-icons/io";
+import { Input } from "@/components/ui/input"
 
 const Banner = () => {
   const [copied, setCopied] = useState(false);
@@ -27,7 +37,7 @@ const Banner = () => {
   return (
     <div className="mt-[-80px]">
       <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[550px] xl:h-auto 2xl:h-[110vh] w-full hidden md:block" />
-      <div className="2xl:-mt-[850px]">
+      <div className="xl:-mt-[850px] 2xl:-mt-[850px]">
         <Container>
           <div className="lg:flex justify-between">
             {/* banner text section  */}
@@ -49,10 +59,131 @@ const Banner = () => {
                 </div>
               </div>
 
-              <Button className="mt-[50px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] uppercase text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 px-[50px] rounded-[10px] duration-300">CONNECT</Button>
+              <Button className="mt-[50px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 px-[50px] rounded-[10px] duration-300">CONNECT</Button>
             </div>
 
+            {/* Buy now card */}
+            <div className="w-[50%] flex justify-end">
+              <div className="bg-[#] bgBlur">
+                <div className="flex justify-end">
+                  <img src={photoFrame} alt="Image" className="w-[550px]" />
+                </div>
 
+                <div className="mt-[-750px]">
+                  <div className="md:w-2/3 lg:w-[540px] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px] text-[#000]">
+                    <h3 className="text-center lg:text-[22px] xl:text-[25px] 2xl:text-[28px] mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
+
+                    {/* Manual Timer */}
+                    <div className="flex justify-between bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1 text-white">
+                      <div className="font-semibold">
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Days</p>
+                        <p className="text-[43px] lg:tracking-[1.98px]">36</p>
+                      </div>
+                      <div className="font-semibold">
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Hours</p>
+                        <p className="text-[43px] lg:tracking-[1.98px]">09</p>
+                      </div>
+                      <div className="font-semibold">
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Minutes</p>
+                        <p className="text-[43px] lg:tracking-[1.98px]">53</p>
+                      </div>
+                      <div className="font-semibold">
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Second</p>
+                        <p className="text-[43px] lg:tracking-[1.98px]">02</p>
+                      </div>
+                    </div>
+
+                    {/* Dynamic Timer */}
+                    {/* <div className="bg-[#BB0F31] rounded-[20px]">
+                        <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
+                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Days</p>
+                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Hours</p>
+                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Minutes</p>
+                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Second</p>
+                        </div>
+
+                        <h2>
+                          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+                        </h2>
+                      </div> */}
+
+                    <p className="text-center text-[17px] 2xl:text-[20px] lg:leading-[24px] lg:tracking-[1.8px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
+                    <Progress value={92} />
+
+                    <div className="flex justify-center items-center mb-1 mt-4">
+                      <p className="tracking-[1px] lg:leading-[24px] lg:tracking-[1.44px] mr-2">YOUR PURCHASED $SNAX= 0</p>
+                      {/* <IoMdInformationCircleOutline className="text-[#bb0f31] rotate-180" /> */}
+                      <img src={faqIcon} alt="Image" />
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <p className="tracking-[1px] lg:leading-[24px] lg:tracking-[1.44px] mr-2">YOUR STAKEABLE $SNAX= 0</p>
+                      {/* <IoMdInformationCircleOutline className="text-[#bb0f31] rotate-180" /> */}
+                      <img src={faqIcon} alt="Image" />
+                    </div>
+
+                    <div className="flex justify-center items-center my-4">
+                      <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
+                      <p className="2xl:text-[18px] lg:leading-[19.2px] lg:tracking-[4.92px] px-2">1 $SNAX - $0.000445</p>
+                      <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
+                    </div>
+
+                    {/* Ethereum button */}
+                    <div className="flex justify-between gap-x-6">
+                      <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                        <img src={icon1} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
+                        <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">ETH</p>
+                      </div>
+
+                      <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                        <img src={icon2} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
+                        <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">USDT</p>
+                      </div>
+
+                      <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                        <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[22px] 2xl:w-[28px]" />
+                        <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">CARD</p>
+                      </div>
+                    </div>
+
+                    {/* ETH you pay */}
+                    <div className="flex justify-between mt-5 mb-4">
+                      <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">ETH you pay</p>
+                      <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">Max</p>
+                      <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">$SNAX you receive</p>
+                    </div>
+
+                    {/* Input field */}
+                    <div className="flex justify-between gap-x-6">
+                      <div className="relative">
+                        <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#ebab18] to-[#0fc1c7ea] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
+
+                        <img src={icon1} alt="Image" className="absolute top-[10px] right-4" />
+                      </div>
+
+                      <div className="relative">
+                        <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#ebab18] to-[#0fc1c7ea] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
+
+                        <img src={icon5} alt="Image" className="w-[21px] absolute top-[9px] right-4" />
+                      </div>
+                    </div>
+
+                    {/* Button */}
+                    <div className="xl:flex justify-between gap-x-6 mt-7 mb-8">
+                      <Button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</Button>
+
+                      <div className="relative xl:w-1/2">
+                        <img src={icon4} alt="Image" className="w-[25px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
+
+                        <Button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] pl-10 2xl:pl-10 py-6 2xl:py-7 mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</Button>
+                      </div>
+                    </div>
+
+                    <p className="tracking-[1.44px] text-center w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
       </div>
