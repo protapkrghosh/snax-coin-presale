@@ -184,19 +184,25 @@ const Banner = () => {
 
                     {/* Ethereum button */}
                     <div className="flex justify-between gap-x-6">
-                      <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
-                        <img src={icon1} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
-                        <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">ETH</p>
+                      <div className="bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                          <img src={icon1} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
+                          <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">ETH</p>
+                        </div>
                       </div>
 
-                      <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
-                        <img src={icon2} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
-                        <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">USDT</p>
+                      <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                          <img src={icon2} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
+                          <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">USDT</p>
+                        </div>
                       </div>
 
-                      <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
-                        <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[22px] 2xl:w-[28px]" />
-                        <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">CARD</p>
+                      <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                          <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[22px] 2xl:w-[28px]" />
+                          <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">CARD</p>
+                        </div>
                       </div>
                     </div>
 
