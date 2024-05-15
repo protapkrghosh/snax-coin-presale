@@ -247,7 +247,7 @@ const Banner = () => {
                       </div>
                     </div>
 
-                    <p className="mt-[30px] tracking-[1.44px] text-center w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
+                    <p className="mt-[30px] xl:pb-[46px] tracking-[1.44px] text-center w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
                   </div>
                 </div>
               </div>
