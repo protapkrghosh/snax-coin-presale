@@ -126,7 +126,8 @@ const Banner = () => {
               <Button className="mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 px-[50px] rounded-[10px] duration-300">CONNECT</Button>
             </div>
 
-            {/* Buy now card */}
+            {/* -------------- Buy now card ------------ */}
+
             <div className="w-[50%] flex justify-end">
               <div className="bg-[#] mt-[-70px] bgBlur">
                 <div className="flex justify-end">
