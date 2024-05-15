@@ -105,11 +105,11 @@ const Banner = () => {
             {/* banner text section  */}
             <div className="w-[50%]">
               <p className="text-[#FFF4E7] font-gagalin xl:text-[90px] lg:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
-              <p className="bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] xl:text-[140px] lg:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
-              <p className="mt-[30px] text-[#CED9D7] font-gagalin lg:text-[28px] lg:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
+              <p className="mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] xl:text-[140px] lg:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
+              <p className="mt-[25px] text-[#CED9D7] font-gagalin lg:text-[28px] lg:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
 
               {/* Copied text */}
-              <div className='flex justify-center md:justify-start mt-10'>
+              <div className='mt-[30px] flex justify-center md:justify-start'>
                 <div className="bg-gradient-to-l to-[#1cb4b2] from-[#c9af31] p-[1px] rounded-md">
                   <div className="flex justify-center items-center text-[18px] bg-gradient-to-l to-[#278274] from-[#5d814d] p-3 rounded-md">
                     <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
@@ -123,7 +123,7 @@ const Banner = () => {
                 </div>
               </div>
 
-              <Button className="mt-[50px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 px-[50px] rounded-[10px] duration-300">CONNECT</Button>
+              <Button className="mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 px-[50px] rounded-[10px] duration-300">CONNECT</Button>
             </div>
 
             {/* Buy now card */}
