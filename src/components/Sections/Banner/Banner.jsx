@@ -110,8 +110,8 @@ const Banner = () => {
 
               {/* Copied text */}
               <div className='flex justify-center md:justify-start mt-10'>
-                <div className="bg-gradient-to-l to-[#288B7D] from-[#257e39] p-[1px] rounded-md">
-                  <div className="flex justify-center items-center text-[18px] bg-gradient-to-l to-[#175048] from-[#497953] p-3 rounded-md">
+                <div className="bg-gradient-to-l to-[#1cb4b2] from-[#c9af31] p-[1px] rounded-md">
+                  <div className="flex justify-center items-center text-[18px] bg-gradient-to-l to-[#278274] from-[#5d814d] p-3 rounded-md">
                     <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                     <button onClick={() => { setCopied(!copied); copyLink() }}>
                       {
