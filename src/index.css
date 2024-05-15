@@ -11,7 +11,10 @@ body {
 .bgBlur {
   fill: linear-gradient(270deg, rgba(248, 181, 21, 0.10) 0%, rgba(15, 193, 199, 0.10) 100%);
   backdrop-filter: blur(15px);
-  border-radius: 30px;
+  border-start-start-radius: 30px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 100px;
 }
 
 @layer base {
