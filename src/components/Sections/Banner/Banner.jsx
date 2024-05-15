@@ -1,7 +1,7 @@
 import bgImg from "@/assets/banner/wireframe.png"
 import photoFrame from "@/assets/banner/Vector.png"
 import Container from "../Container/Container";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import { IoCopy } from "react-icons/io5";
 import { MdLibraryAddCheck } from "react-icons/md";
@@ -33,6 +33,68 @@ const Banner = () => {
       });
     }
   };
+
+
+
+  // Dynamic timer
+  const [presalePercentage, setPresalePercentage] = useState(2);
+  // Input logo change 
+  const [open, setOpen] = useState(true);
+
+  const calculateTimeLeft = () => {
+    const difference = +new Date("2024-06-21") - +new Date();
+    let timeLeft = {};
+
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+    }
+
+
+
+
+    // Pad numbers with leading zeros
+    Object.keys(timeLeft).forEach(interval => {
+      timeLeft[interval] = timeLeft[interval].toString().padStart(2, '0');
+    });
+
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    setPresalePercentage(99 - timeLeft.hours * 1.2);
+    return () => clearTimeout(timer);
+  });
+
+  const timerComponents = [];
+
+  Object.keys(timeLeft).forEach((interval) => {
+    if (!timeLeft[interval]) {
+      return;
+    }
+    timerComponents.push(
+      <span key={interval} className="">
+        <span className="text-[#FFF4E7] font-bold text-[32px] lg:tracking-[3px] md:text-[43px] rounded-[8px] px-7 2xl:px-6 ml-3">
+          {timeLeft[interval]}
+        </span>{" "}
+
+        {/* <span className="text-white text-[13px] md:text-[20px] uppercase  top-10 left-[16px] md:left-[22px] mt-[10px] md:mt-[15px]">
+          {interval.slice(0, interval.length - 1)}
+        </span>{" "} */}
+      </span>
+    );
+  });
+
 
   return (
     <div className="mt-[-80px]">
@@ -73,39 +135,29 @@ const Banner = () => {
                   <div className="md:w-2/3 lg:w-[540px] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px] text-[#000]">
                     <h3 className="text-center lg:text-[22px] xl:text-[25px] 2xl:text-[28px] mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
-                    {/* Manual Timer */}
-                    <div className="flex justify-between bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1 text-white">
-                      <div className="font-semibold">
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Days</p>
-                        <p className="ml-[8px] text-[43px] lg:tracking-[1.98px]">36</p>
-                      </div>
-                      <div className="font-semibold">
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Hours</p>
-                        <p className="ml-[13px] text-[43px] lg:tracking-[1.98px]">09</p>
-                      </div>
-                      <div className="font-semibold">
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Minutes</p>
-                        <p className="ml-[23px] text-[43px] lg:tracking-[1.98px]">53</p>
-                      </div>
-                      <div className="font-semibold">
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2 lg:tracking-[1.98px]">Second</p>
-                        <p className="ml-[20px] text-[43px] lg:tracking-[1.98px]">02</p>
-                      </div>
-                    </div>
-
                     {/* Dynamic Timer */}
-                    {/* <div className="bg-[#BB0F31] rounded-[20px]">
-                        <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
-                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Days</p>
-                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Hours</p>
-                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Minutes</p>
-                          <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Second</p>
-                        </div>
+                    <div className="relative bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] h-[110px]">
+                      <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[10px] pb-2 text-[#FFF4E7]">
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Days</p>
 
-                        <h2>
-                          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
-                        </h2>
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Hours</p>
+
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Minutes</p>
+                        
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
+                      </div>
+
+                      {/* <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[10px] pb-2 text-[#FFF4E7]">
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Days</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Hours</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Minutes</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
                       </div> */}
+
+                      <h2 className="absolute -left-[11px] md:left-0 lg:-left-[27px] xl:-left-[10px] 2xl:left-0">
+                        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+                      </h2>
+                    </div>
 
                     <p className="text-center text-[17px] 2xl:text-[20px] lg:leading-[24px] lg:tracking-[1.8px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
                     <Progress value={92} />
