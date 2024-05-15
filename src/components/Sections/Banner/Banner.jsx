@@ -130,10 +130,10 @@ const Banner = () => {
             <div className="w-[50%] flex justify-end">
               <div className="bg-[#] mt-[-70px] bgBlur">
                 <div className="flex justify-end">
-                  <img src={photoFrame} alt="Image" className="w-[550px]" />
+                  <img src={photoFrame} alt="Image" className="w-[580px] xl:h-[910px]" />
                 </div>
 
-                <div className="mt-[-730px]">
+                <div className="mt-[-850px] ml-[18px]">
                   <div className="md:w-2/3 lg:w-[540px] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px] text-[#000]">
                     <h3 className="text-center lg:text-[22px] xl:text-[25px] 2xl:text-[28px] mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
