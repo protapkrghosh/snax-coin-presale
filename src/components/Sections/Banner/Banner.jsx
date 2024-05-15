@@ -83,8 +83,8 @@ const Banner = () => {
       return;
     }
     timerComponents.push(
-      <span key={interval} className="ml-3">
-        <span className="text-[#FFF4E7] font-bold text-[32px] lg:tracking-[3px] md:text-[43px] rounded-[8px] mx-[16px] md:mx-[20px] lg:mx-[24px] xl:mx-[37px] 2xl:mx-[26px]">
+      <span key={interval} className="">
+        <span className="text-[#FFF4E7] font-bold text-[32px] lg:tracking-[3px] md:text-[43px] rounded-[8px] px-7 2xl:px-6 ml-3">
           {timeLeft[interval]}
         </span>{" "}
 
@@ -154,7 +154,7 @@ const Banner = () => {
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
                       </div> */}
 
-                      <h2 className="absolute -left-[11px] md:left-0 lg:-left-[27px] xl:-left-[20px] 2xl:-left-0">
+                      <h2 className="absolute -left-[11px] md:left-0 lg:-left-[27px] xl:-left-[10px] 2xl:left-0">
                         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
                       </h2>
                     </div>
