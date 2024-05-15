@@ -106,18 +106,20 @@ const Banner = () => {
             <div className="w-[50%]">
               <p className="text-[#FFF4E7] font-gagalin xl:text-[90px] lg:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
               <p className="bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] xl:text-[140px] lg:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
-              <p className="text-[#CED9D7] font-gagalin lg:text-[28px] lg:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
+              <p className="mt-[30px] text-[#CED9D7] font-gagalin lg:text-[28px] lg:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
 
               {/* Copied text */}
               <div className='flex justify-center md:justify-start mt-10'>
-                <div className="flex justify-center items-center text-[18px] border-[1px] border-[#2da091] bg-gradient-to-l to-[#288B7D] from-[#497953] p-3 rounded-md">
-                  <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
-                  <button onClick={() => { setCopied(!copied); copyLink() }}>
-                    {
-                      copied ? <MdLibraryAddCheck className="text-[15px] md:text-[20px] cursor-pointer text-[#fff]" /> :
-                        <IoCopy className="text-[15px] md:text-[20px] cursor-pointer text-[#fff]" />
-                    }
-                  </button>
+                <div className="bg-gradient-to-l to-[#288B7D] from-[#257e39] p-[1px] rounded-md">
+                  <div className="flex justify-center items-center text-[18px] bg-gradient-to-l to-[#175048] from-[#497953] p-3 rounded-md">
+                    <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
+                    <button onClick={() => { setCopied(!copied); copyLink() }}>
+                      {
+                        copied ? <MdLibraryAddCheck className="text-[15px] md:text-[20px] cursor-pointer text-[#fff]" /> :
+                          <IoCopy className="text-[15px] md:text-[20px] cursor-pointer text-[#fff]" />
+                      }
+                    </button>
+                  </div>
                 </div>
               </div>
 
@@ -143,7 +145,7 @@ const Banner = () => {
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Hours</p>
 
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Minutes</p>
-                        
+
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
                       </div>
 
