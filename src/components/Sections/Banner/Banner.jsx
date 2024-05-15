@@ -183,7 +183,7 @@ const Banner = () => {
                     </div>
 
                     {/* Ethereum button */}
-                    <div className="flex justify-between gap-x-6">
+                    <div className="mt-[30px] flex justify-between gap-x-6">
                       <div className="bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
                         <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
                           <img src={icon1} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
@@ -233,7 +233,7 @@ const Banner = () => {
                     </div>
 
                     {/* Button */}
-                    <div className="xl:flex justify-between gap-x-6 mt-7 mb-8">
+                    <div className="mt-[40px] xl:flex justify-between gap-x-6">
                       <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-1/2">
                         <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] tracking-[2px] 2xl:tracking-[3px] w-full h-full">Connect Wallet</button>
                       </div>
