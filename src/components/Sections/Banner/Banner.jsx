@@ -216,13 +216,17 @@ const Banner = () => {
                     {/* Input field */}
                     <div className="flex justify-between gap-x-6">
                       <div className="relative">
-                        <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#ebab18] to-[#0fc1c7ea] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
+                        <div className="bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] p-[1px]">
+                          <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
+                        </div>
 
                         <img src={icon1} alt="Image" className="absolute top-[10px] right-4" />
                       </div>
 
                       <div className="relative">
-                        <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#ebab18] to-[#0fc1c7ea] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
+                        <div className="bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] p-[1px]">
+                          <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
+                        </div>
 
                         <img src={icon5} alt="Image" className="w-[21px] absolute top-[9px] right-4" />
                       </div>
@@ -230,12 +234,16 @@ const Banner = () => {
 
                     {/* Button */}
                     <div className="xl:flex justify-between gap-x-6 mt-7 mb-8">
-                      <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</button>
+                      <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-1/2">
+                        <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] tracking-[2px] 2xl:tracking-[3px] w-full h-full">Connect Wallet</button>
+                      </div>
 
                       <div className="relative xl:w-1/2">
                         <img src={icon4} alt="Image" className="w-[26px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
 
-                        <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] pl-10 2xl:pl-[54px] py-6 2xl:py-[12px] px-[10px] mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</button>
+                        <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-auto">
+                          <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 2xl:pl-[54px] py-6 2xl:py-[12px] px-[10px] mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full">Buy with BNB</button>
+                        </div>
                       </div>
                     </div>
 
