@@ -138,7 +138,7 @@ const Banner = () => {
                     <h3 className="text-center lg:text-[22px] xl:text-[25px] 2xl:text-[28px] mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
                     {/* Dynamic Timer */}
-                    <div className="relative bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] h-[110px]">
+                    <div className="mt-[30px] relative bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] h-[110px]">
                       <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[10px] pb-2 text-[#FFF4E7]">
                         <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Days</p>
 
@@ -161,29 +161,29 @@ const Banner = () => {
                       </h2>
                     </div>
 
-                    <p className="text-center text-[17px] 2xl:text-[20px] lg:leading-[24px] lg:tracking-[1.8px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
+                    <p className="mt-[20px] mb-[25px] text-center text-[17px] 2xl:text-[20px] lg:leading-[24px] lg:tracking-[1.8px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
                     <Progress value={92} />
 
-                    <div className="flex justify-center items-center mb-1 mt-4">
+                    <div className="mt-[20px] flex justify-center items-center">
                       <p className="tracking-[1px] lg:leading-[24px] lg:tracking-[1.44px] mr-2">YOUR PURCHASED $SNAX= 0</p>
                       {/* <IoMdInformationCircleOutline className="text-[#bb0f31] rotate-180" /> */}
                       <img src={faqIcon} alt="Image" />
                     </div>
 
-                    <div className="flex justify-center items-center">
+                    <div className="mt-[10px] flex justify-center items-center">
                       <p className="tracking-[1px] lg:leading-[24px] lg:tracking-[1.44px] mr-2">YOUR STAKEABLE $SNAX= 0</p>
                       {/* <IoMdInformationCircleOutline className="text-[#bb0f31] rotate-180" /> */}
                       <img src={faqIcon} alt="Image" />
                     </div>
 
-                    <div className="flex justify-center items-center my-4">
+                    <div className="mt-[25px] flex justify-center items-center">
                       <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
                       <p className="2xl:text-[18px] lg:leading-[19.2px] lg:tracking-[4.92px] px-2">1 $SNAX - $0.000445</p>
                       <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
                     </div>
 
                     {/* Ethereum button */}
-                    <div className="flex justify-between gap-x-6">
+                    <div className="mt-[30px] flex justify-between gap-x-6">
                       <div className="flex items-center gap-3 2xl:gap-5 border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
                         <img src={icon1} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
                         <p className="text-[17px] lg:text-[15px] xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">ETH</p>
@@ -201,14 +201,14 @@ const Banner = () => {
                     </div>
 
                     {/* ETH you pay */}
-                    <div className="flex justify-between mt-5 mb-4">
+                    <div className="mt-[30px] flex justify-between">
                       <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">ETH you pay</p>
                       <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">Max</p>
                       <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">$SNAX you receive</p>
                     </div>
 
                     {/* Input field */}
-                    <div className="flex justify-between gap-x-6">
+                    <div className="mt-[10px] flex justify-between gap-x-6">
                       <div className="relative">
                         <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] border border-[#F8B515] bg-gradient-to-l from-[#ebab18] to-[#0fc1c7ea] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
 
@@ -223,7 +223,7 @@ const Banner = () => {
                     </div>
 
                     {/* Button */}
-                    <div className="xl:flex justify-between gap-x-6 mt-7 mb-8">
+                    <div className="mt-[40px] xl:flex justify-between gap-x-6">
                       <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px]  border border-[#F8B515] bg-gradient-to-l from-[#f8b515b3] to-[#0fc1c7b3] tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</button>
 
                       <div className="relative xl:w-1/2">
@@ -233,7 +233,7 @@ const Banner = () => {
                       </div>
                     </div>
 
-                    <p className="tracking-[1.44px] text-center w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
+                    <p className="mt-[30px] tracking-[1.44px] text-center w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
                   </div>
                 </div>
               </div>
