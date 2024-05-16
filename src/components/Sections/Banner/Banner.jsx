@@ -103,7 +103,7 @@ const Banner = () => {
         <Container>
           <div className="lg:flex justify-between">
             {/* banner text section  */}
-            <div className="w-[50%]">
+            <div className="w-[50%] lg:mt-[-70px] xl:mt-0">
               <p className="text-[#FFF4E7] font-gagalin text-[45px] xl:text-[60px] 2xl:text-[90px] xl:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
 
               <p className="lg:mt-[-15px] xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-[70px] lg:text-[75px] xl:text-[110px] 2xl:text-[140px] xl:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
@@ -133,11 +133,11 @@ const Banner = () => {
             <div className="w-[50%] flex justify-end">
               <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
                 <div className="flex justify-end">
-                  <img src={photoFrame} alt="Image" className="w-auto lg:w-[420px] xl:w-[452px] 2xl:w-[580px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
+                  <img src={photoFrame} alt="Image" className="w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
                 </div>
 
                 <div className="mt-[-850px] lg:mt-[-690px] xl:mt-[-800px] 2xl:mt-[-850px] lg:ml-[10px] 2xl:ml-[18px]">
-                  <div className="md:w-2/3 lg:w-[400px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] lg:px-[20px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
+                  <div className="md:w-2/3 lg:w-[380px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] lg:px-[20px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
                     <h3 className="text-center lg:text-[22px] xl:text-[23px] 2xl:text-[28px] lg:mb-[-15px] xl:mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
                     {/* Dynamic Timer */}
@@ -231,19 +231,19 @@ const Banner = () => {
                     {/* Button */}
                     <div className="mt-[20px] xl:mt-[40px] lg:flex justify-between gap-x-6">
                       <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full lg:h-[50px] xl:h-auto lg:w-1/2">
-                        <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] tracking-[2px] 2xl:tracking-[3px] w-full h-full">Connect Wallet</button>
+                        <button className="text-[#000] text-[18px] lg:text-[14px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] tracking-[2px] 2xl:tracking-[3px] w-full h-full">Connect Wallet</button>
                       </div>
 
                       <div className="relative lg:w-1/2">
-                        <img src={icon4} alt="Image" className="w-[23px] 2xl:w-[26px] absolute top-8 lg:top-4 xl:top-[14px] 2xl:top-[16px] left-16 md:left-24 lg:left-2 xl:left-2 2xl:left-3 cursor-pointer" />
+                        <img src={icon4} alt="Image" className="w-[23px] lg:w-[21px] xl:w-[23px] 2xl:w-[26px] absolute top-8 lg:top-[14px] xl:top-[14px] 2xl:top-[16px] left-16 md:left-24 lg:left-2 xl:left-2 2xl:left-3 cursor-pointer" />
 
                         <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-auto lg:h-[50px] xl:h-auto">
-                          <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 2xl:pl-[54px] py-[13px] 2xl:py-[12px] px-[10px] lg:pl-[38px] xl:px-[10px] lg:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full lg:h-[50px] xl:h-auto">Buy with BNB</button>
+                          <button className="text-[#000] text-[18px] lg:text-[14px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 2xl:pl-[54px] py-[13px] 2xl:py-[12px] px-[10px] lg:pl-[38px] xl:px-[10px] lg:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full lg:h-[50px] xl:h-auto">Buy with BNB</button>
                         </div>
                       </div>
                     </div>
 
-                    <p className="mt-[30px] pb-[12px] 2xl:pb-[46px] tracking-[1.44px] text-center lg:w-[70%] xl:w-[65%] 2xl:w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
+                    <p className="mt-[30px] pb-[12px] 2xl:pb-[46px] tracking-[1.44px] text-center lg:w-[75%] xl:w-[65%] 2xl:w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
                   </div>
                 </div>
               </div>
