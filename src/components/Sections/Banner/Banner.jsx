@@ -84,7 +84,7 @@ const Banner = () => {
     }
     timerComponents.push(
       <span key={interval} className="">
-        <span className="text-[#FFF4E7] font-bold lg:tracking-[3px] text-[32px] md:text-[43px] xl:text-[38px] 2xl:text-[43px] rounded-[8px] px-7 xl:px-[17px] 2xl:px-6 ml-3">
+        <span className="text-[#FFF4E7] font-bold lg:tracking-[3px] text-[32px] md:text-[43px] lg:text-[32px] xl:text-[38px] 2xl:text-[43px] rounded-[8px] px-7 lg:px-[17px] xl:px-[17px] 2xl:px-6 ml-3">
           {timeLeft[interval]}
         </span>{" "}
 
@@ -98,27 +98,27 @@ const Banner = () => {
 
   return (
     <div className="mt-[-80px]">
-      <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[550px] xl:h-[155vh] 2xl:h-[140vh] w-full hidden md:block" />
-      <div className="xl:-mt-[850px] 2xl:-mt-[1085px]">
+      <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[150vh] xl:h-[155vh] 2xl:h-[140vh] w-full hidden md:block" />
+      <div className="-mt-[850px] lg:-mt-[670px] xl:-mt-[850px] 2xl:-mt-[1085px]">
         <Container>
           <div className="lg:flex justify-between">
             {/* banner text section  */}
             <div className="w-[50%]">
-              <p className="text-[#FFF4E7] font-gagalin text-[40px] xl:text-[60px] 2xl:text-[90px] lg:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
+              <p className="text-[#FFF4E7] font-gagalin text-[45px] xl:text-[60px] 2xl:text-[90px] xl:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
 
-              <p className="xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-[70px] xl:text-[110px] 2xl:text-[140px] lg:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
+              <p className="lg:mt-[-15px] xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-[70px] lg:text-[75px] xl:text-[110px] 2xl:text-[140px] xl:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
 
-              <p className="mt-[5px] 2xl:mt-[25px] text-[#CED9D7] font-gagalin text-[17px] lg:text-[28px] xl:text-[20px] 2xl:text-[28px] xl:leading-[35px] 2xl:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
+              <p className="mt-[5px] 2xl:mt-[25px] text-[#CED9D7] font-gagalin text-[17px] lg:text-[19px] xl:text-[20px] 2xl:text-[28px] xl:leading-[35px] 2xl:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
 
               {/* Copied text */}
               <div className='mt-[30px] flex justify-center md:justify-start'>
                 <div className="bg-gradient-to-l to-[#1cb4b2] from-[#c9af31] p-[1px] rounded-md">
-                  <div className="flex justify-center items-center text-[18px] bg-gradient-to-l to-[#278274] from-[#5d814d] p-2 2xl:p-3 rounded-md">
+                  <div className="flex justify-center items-center text-[18px] lg:text-[15px] xl:text-[18px] bg-gradient-to-l to-[#278274] from-[#5d814d] p-[6px] xl:p-2 2xl:p-3 rounded-md">
                     <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                     <button onClick={() => { setCopied(!copied); copyLink() }}>
                       {
-                        copied ? <MdLibraryAddCheck className="text-[15px] md:text-[20px] cursor-pointer text-[#fff]" /> :
-                          <IoCopy className="text-[15px] md:text-[20px] cursor-pointer text-[#fff]" />
+                        copied ? <MdLibraryAddCheck className="text-[15px] md:text-[20px] lg:text-[15px] xl:text-[20px] cursor-pointer text-[#fff]" /> :
+                          <IoCopy className="text-[15px] md:text-[20px] lg:text-[15px] xl:text-[20px] cursor-pointer text-[#fff]" />
                       }
                     </button>
                   </div>
@@ -131,33 +131,33 @@ const Banner = () => {
             
             {/* -------------- Buy now card ------------ */}
             <div className="w-[50%] flex justify-end">
-              <div className="mt-[-70px] 2xl:mt-[-70px] bgBlur">
+              <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
                 <div className="flex justify-end">
-                  <img src={photoFrame} alt="Image" className="w-auto xl:w-[452px] 2xl:w-[580px] xl:h-[810px] 2xl:h-[910px]" />
+                  <img src={photoFrame} alt="Image" className="w-auto lg:w-[420px] xl:w-[452px] 2xl:w-[580px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
                 </div>
 
-                <div className="mt-[-850px] xl:mt-[-800px] 2xl:mt-[-850px] xl:ml-[10px] 2xl:ml-[18px]">
-                  <div className="md:w-2/3 lg:w-[540px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
-                    <h3 className="text-center lg:text-[22px] xl:text-[23px] 2xl:text-[28px] mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
+                <div className="mt-[-850px] lg:mt-[-690px] xl:mt-[-800px] 2xl:mt-[-850px] lg:ml-[10px] 2xl:ml-[18px]">
+                  <div className="md:w-2/3 lg:w-[400px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] lg:px-[20px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
+                    <h3 className="text-center lg:text-[22px] xl:text-[23px] 2xl:text-[28px] lg:mb-[-15px] xl:mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
                     {/* Dynamic Timer */}
-                    <div className="mt-[30px] relative bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] h-[110px]">
+                    <div className="mt-[30px] relative bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] h-[110px] lg:h-[85px] xl:h-[110px]">
                       <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[10px] pb-2 text-[#FFF4E7]">
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Days</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Days</p>
 
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Hours</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Hours</p>
 
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Minutes</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Minutes</p>
 
-                        <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
+                        <p className="text-[17px] md:text-[21px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
                       </div>
 
-                      <h2 className="absolute -left-[11px] md:left-0 lg:-left-[27px] xl:left-0">
+                      <h2 className="absolute -left-[11px] md:left-0 lg:-left-[12px] xl:left-0">
                         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
                       </h2>
                     </div>
 
-                    <p className="mt-[20px] mb-[25px] text-center text-[17px] 2xl:text-[20px] lg:leading-[24px] lg:tracking-[1.8px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
+                    <p className="xl:mt-[20px] xl:mb-[25px] text-center text-[17px] 2xl:text-[20px] lg:leading-[24px] lg:tracking-[1.8px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
                     <Progress value={92} />
 
                     <div className="mt-[20px] flex justify-center items-center">
@@ -172,30 +172,30 @@ const Banner = () => {
                       <img src={faqIcon} alt="Image" />
                     </div>
 
-                    <div className="mt-[25px] flex justify-center items-center">
+                    <div className="mt-[18px] xl:mt-[25px] flex justify-center items-center">
                       <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
-                      <p className="2xl:text-[18px] lg:leading-[19.2px] lg:tracking-[4.92px] px-2">1 $SNAX - $0.000445</p>
+                      <p className="2xl:text-[18px] lg:leading-[19.2px] lg:tracking-[3px] xl:tracking-[4.92px] px-2">1 $SNAX - $0.000445</p>
                       <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
                     </div>
 
                     {/* Ethereum button */}
-                    <div className="mt-[30px] flex justify-between gap-x-6">
-                      <div className="bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
-                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                    <div className="mt-[23px] xl:mt-[30px] flex justify-between gap-x-6">
+                      <div className="bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit h-fit p-[1px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[8px] xl:py-[10px] rounded-[30px]">
                           <img src={icon1} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[23px] 2xl:w-[31px]" />
                           <p className="text-[17px] lg:text-[15px] xl:text-[19px] 2xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">ETH</p>
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
-                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                      <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit h-fit p-[1px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[8px] xl:py-[10px] rounded-[30px]">
                           <img src={icon2} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[23px] 2xl:w-[31px]" />
                           <p className="text-[17px] lg:text-[15px] xl:text-[19px] 2xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">USDT</p>
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit p-[1px] rounded-[30px]">
-                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
+                      <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit h-fit p-[1px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[8px] xl:py-[10px] rounded-[30px]">
                           <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[21px] 2xl:w-[28px]" />
                           <p className="text-[17px] lg:text-[15px] xl:text-[19px] 2xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">CARD</p>
                         </div>
@@ -203,10 +203,10 @@ const Banner = () => {
                     </div>
 
                     {/* ETH you pay */}
-                    <div className="mt-[30px] flex justify-between">
-                      <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">ETH you pay</p>
-                      <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">Max</p>
-                      <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">$SNAX you receive</p>
+                    <div className="mt-[20px] xl:mt-[30px] flex justify-between">
+                      <p className="lg:text-[15px] xl:text-[16px] 2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">ETH you pay</p>
+                      <p className="lg:text-[15px] xl:text-[16px] 2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">Max</p>
+                      <p className="lg:text-[15px] xl:text-[16px] 2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">$SNAX you receive</p>
                     </div>
 
                     {/* Input field */}
@@ -216,7 +216,7 @@ const Banner = () => {
                           <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
                         </div>
 
-                        <img src={icon1} alt="Image" className="xl:w-[30px] 2xl:w-auto absolute top-[10px] right-4" />
+                        <img src={icon1} alt="Image" className="lg:w-[28px] xl:w-[30px] 2xl:w-auto absolute top-[10px] lg:top-[11px] xl:top-[10px] right-4" />
                       </div>
 
                       <div className="relative">
@@ -224,26 +224,26 @@ const Banner = () => {
                           <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] placeholder:text-[#000] border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
                         </div>
 
-                        <img src={icon5} alt="Image" className="xl:w-[19px] 2xl:w-[21px] absolute top-[9px] right-4" />
+                        <img src={icon5} alt="Image" className="lg:w-[18px] xl:w-[19px] 2xl:w-[21px] absolute top-[9px] lg:top-[10px] xl:top-[9px] right-4" />
                       </div>
                     </div>
 
                     {/* Button */}
-                    <div className="mt-[40px] xl:flex justify-between gap-x-6">
-                      <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-1/2">
+                    <div className="mt-[20px] xl:mt-[40px] lg:flex justify-between gap-x-6">
+                      <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full lg:h-[50px] xl:h-auto lg:w-1/2">
                         <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] tracking-[2px] 2xl:tracking-[3px] w-full h-full">Connect Wallet</button>
                       </div>
 
-                      <div className="relative xl:w-1/2">
-                        <img src={icon4} alt="Image" className="w-[23px] 2xl:w-[26px] absolute top-8 xl:top-[14px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
+                      <div className="relative lg:w-1/2">
+                        <img src={icon4} alt="Image" className="w-[23px] 2xl:w-[26px] absolute top-8 lg:top-4 xl:top-[14px] 2xl:top-[16px] left-16 md:left-24 lg:left-2 xl:left-2 2xl:left-3 cursor-pointer" />
 
-                        <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-auto">
-                          <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 2xl:pl-[54px] py-[13px] 2xl:py-[12px] px-[10px] mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full">Buy with BNB</button>
+                        <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-auto lg:h-[50px] xl:h-auto">
+                          <button className="text-[#000] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 2xl:pl-[54px] py-[13px] 2xl:py-[12px] px-[10px] lg:pl-[38px] xl:px-[10px] lg:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full lg:h-[50px] xl:h-auto">Buy with BNB</button>
                         </div>
                       </div>
                     </div>
 
-                    <p className="mt-[30px] pb-[12px] 2xl:pb-[46px] tracking-[1.44px] text-center xl:w-[65%] 2xl:w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
+                    <p className="mt-[30px] pb-[12px] 2xl:pb-[46px] tracking-[1.44px] text-center lg:w-[70%] xl:w-[65%] 2xl:w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
                   </div>
                 </div>
               </div>
