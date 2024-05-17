@@ -18,40 +18,105 @@ const OurWayMoon = () => {
 
         {/* Moon section contents */}
         <div className='relative'>
-          {/* PHASE One */}
+          {/* PHASE ONE */}
           <div className='absolute top-10 right-[420px]'>
             <h3 className='text-white text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[15px]'>PHASE 1</h3>
 
             <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[15px]'>
               <div className='flex items-center'>
-                <div className='w-3 h-3 bg-white rounded-full mr-[10px]'/>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
                 <p>PancakeSwap Listing</p>
               </div>
 
               <div className='flex items-center'>
-                <div className='w-3 h-3 bg-white rounded-full mr-[10px]'/>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
                 <p>CoinMarketCap Listing</p>
               </div>
 
               <div className='flex items-center'>
-                <div className='w-3 h-3 bg-white rounded-full mr-[10px]'/>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
                 <p>Trending in BSC</p>
               </div>
 
               <div className='flex items-center'>
-                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]'/>
+                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>Coincecko isung</p>
               </div>
 
               <div className='flex items-center'>
-                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]'/>
+                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>Coincecko isung</p>
               </div>
             </div>
           </div>
 
-          <img src={shape} alt="Image" />
+          {/* PHASE TWO */}
+          <div className='absolute top-[545px] left-[200px]'>
+            <h3 className='text-white text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[15px]'>PHASE 2</h3>
+
+            <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[15px]'>
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
+                <p>Extreme Marketing Push</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
+                <p>Donations (Ongoing)</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
+                <p>Tiers 2 CEX Listing</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
+                <p>5.000 Holders</p>
+              </div>
+            </div>
+          </div>
+
+
+          {/* PHASE THREE */}
+          <div className='absolute bottom-32 right-[105px]'>
+            <h3 className='text-white text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[15px]'>PHASE 3</h3>
+
+            <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[15px]'>
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
+                <p>Charities</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
+                <p>Influencer Awareness</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
+                <p>Update Marketing</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
+                <p>50,000 Holders</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
+                <p>Staking Pool Expansion</p>
+              </div>
+
+              <div className='flex items-center'>
+                <div className='w-3 h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
+                <p>Introducing Mars Map</p>
+              </div>
+            </div>
+          </div>
           
+          {/* Section Image */}
+          <img src={shape} alt="Image" />
         </div>
       </Container>
     </div>
