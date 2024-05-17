@@ -3,6 +3,8 @@ import Container from '../Container/Container';
 import aboutImg from '@/assets/about/Group 1171275232 (1).png';
 import aboutImgleftShadow from '@/assets/about/Group 1171275238.png';
 import aboutImgRightShadow from '@/assets/about/Dinosaur-bone-vector-art-illustration-Graphics-37857416-2-580x387.png';
+// ourfeatures
+import featuresTitleShadow from '@/assets/ourFeatures/Group 1171275247.png';
 import { Button } from '@/components/ui/button';
 
 const AboutOrFeatures = () => {
@@ -34,7 +36,7 @@ const AboutOrFeatures = () => {
               <img className='absolute 2xl:w-[30%] xl:w-[38%] lg:w-[40%] md:w-[40%] w-[40%] 2xl:top-[-240px] xl:top-[-220px] lg:top-[-180px] md:top-[-180px] top-[-80px] 2xl:right-[570px] xl:right-[360px] lg:right-[270px] md:right-[20px] right-[5px]' src={aboutImgRightShadow} alt="image" />
 
               <div className='border-[3px] border-dashed rounded-[30px] xl:pl-[50px] lg:pl-[40px] md:pl-[30px] 2xl:pr-[0px] xl:pr-[11px] lg:pr-[11px] md:p-[0px] p-[10px]'>
-                
+
                 <div>
                   <p className='xl:mt-[60px] lg:mt-[40px] md:mt-[25px] mt-[20px] text-[#FFF] xl:text-[80px] lg:text-[65px] md:text-[35px] text-[25px] lg:leading-[80px] lg:tracking-[2.4px] lg:text-start text-center'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>snax</span></p>
 
@@ -58,12 +60,9 @@ const AboutOrFeatures = () => {
 
 
           {/* ------------------- our features section --------------- */}
-          <div>
+          <div className='2xl:pt-[170px]'>
             <div>
-              <div className='flex'>
-                <img src={aboutImgleftShadow} alt="Image" className='w-[70px] md:w-[170px] lg:w-[200px] xl:w-auto h-[95px] md:h-auto' />
-                <h1 className='text-white text-[30px] md:text-[45px] lg:text-[60px] xl:text-[80px] text-center lg:leading-[88px] lg:tracking-[2.4px] mt-3 md:mt-5 lg:mt-5 xl:mt-10 ml-[-50px] md:ml-[-105px] lg:ml-[-140px] xl:ml-[-185px]'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
-              </div>
+              <h1 className='text-white text-[80px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
             </div>
           </div>
 
