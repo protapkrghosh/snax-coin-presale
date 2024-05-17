@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <AboutOrFeatures />
+      {/* <AboutOrFeatures /> */}
       <MemeGenerator />
       <OurWayMoon />
     </div>
