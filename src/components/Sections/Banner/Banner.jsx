@@ -103,10 +103,10 @@ const Banner = () => {
         <Container>
           <div className="flex flex-col-reverse lg:flex-row justify-between">
             {/* banner text section  */}
-            <div className="w-[50%] lg:mt-[-70px] xl:mt-0">
+            <div className="lg:w-[50%] mt-16 lg:mt-[-70px] xl:mt-0">
               <p className="text-[#FFF4E7] font-gagalin text-[45px] xl:text-[60px] 2xl:text-[90px] xl:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
 
-              <p className="lg:mt-[-15px] xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-[70px] lg:text-[75px] xl:text-[110px] 2xl:text-[140px] xl:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
+              <p className="mt-[-15px] xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-[90px] lg:text-[75px] xl:text-[110px] 2xl:text-[140px] xl:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
 
               <p className="mt-[5px] 2xl:mt-[25px] text-[#CED9D7] font-gagalin text-[17px] lg:text-[19px] xl:text-[20px] 2xl:text-[28px] xl:leading-[35px] 2xl:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
 
@@ -125,12 +125,12 @@ const Banner = () => {
                 </div>
               </div>
 
-              <Button className="mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 xl:px-[35px] 2xl:px-[50px] rounded-[10px] duration-300">CONNECT</Button>
+              <Button className="mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 xl:px-[35px] 2xl:px-[50px] mb-10 lg:mb-0 rounded-[10px] duration-300">CONNECT</Button>
             </div>
 
             
             {/* -------------- Buy now card ------------ */}
-            <div className="w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-16 lg:mt-0">
+            <div className="w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-12 lg:mt-0">
               <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
                 <div className="flex justify-end">
                   <img src={photoFrame} alt="Image" className="w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] md:h-[760px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
