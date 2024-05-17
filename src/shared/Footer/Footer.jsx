@@ -3,12 +3,12 @@ import img2 from '@/assets/footer/Dinosaur-bone.png';
 import logo from '@/assets/banner/Frame 431.png';
 import icon1 from '@/assets/footer/Mask group.png';
 import icon2 from '@/assets/footer/Group 8773.png';
-import { FaTelegramPlane, FaRedditAlien } from "react-icons/fa";
-import { FaXTwitter, FaInstagram } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div>
+    <div className='xl:pt-[109px]'>
       <div className='flex justify-between items-center'>
         <img src={img2} alt="Image" className='w-[100px] lg:w-[180px] xl:w-[250px] opacity-80 md:-mb-24 lg:-mb-10 xl:mb-0 hidden md:block' />
 
