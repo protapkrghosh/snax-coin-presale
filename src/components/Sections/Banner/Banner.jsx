@@ -133,7 +133,7 @@ const Banner = () => {
             
             {/* -------------- Buy now card ------------ */}
             <div className="md:w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-12 lg:mt-0">
-              <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] lg:bgBlur">
+              <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
                 <div className="md:flex justify-end">
                   <img src={photoFrame} alt="Image" className="w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] h-[680px] md:h-[760px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px] ml-[0px]" />
                 </div>
