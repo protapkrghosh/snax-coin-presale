@@ -14,7 +14,6 @@ import icon5 from '@/assets/banner/Group4.png'
 import line from '@/assets/banner/Line 12.png'
 import faqIcon from '@/assets/banner/Group 845.png'
 import { Progress } from "@/components/ui/progress"
-import { IoMdInformationCircleOutline } from "react-icons/io";
 import { Input } from "@/components/ui/input"
 
 const Banner = () => {
@@ -35,14 +34,13 @@ const Banner = () => {
   };
 
 
-
   // Dynamic timer
   const [presalePercentage, setPresalePercentage] = useState(2);
   // Input logo change 
   const [open, setOpen] = useState(true);
 
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-06-21") - +new Date();
+    const difference = +new Date("2024-06-23") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -53,9 +51,6 @@ const Banner = () => {
         seconds: Math.floor((difference / 1000) % 60),
       };
     }
-
-
-
 
     // Pad numbers with leading zeros
     Object.keys(timeLeft).forEach(interval => {
@@ -130,7 +125,7 @@ const Banner = () => {
               <Button className="mt-5 md:mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 xl:px-[35px] 2xl:px-[50px] mb-10 lg:mb-0 rounded-[10px] duration-300 w-full md:w-fit">CONNECT</Button>
             </div>
 
-            
+
             {/* -------------- Buy now card ------------ */}
             <div className="md:w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-12 lg:mt-0">
               <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
