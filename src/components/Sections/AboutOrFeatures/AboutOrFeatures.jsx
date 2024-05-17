@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../Container/Container';
 import aboutImg from '@/assets/about/Group 1171275232 (1).png';
 import aboutImgleftShadow from '@/assets/about/Group 1171275238.png';
+import aboutImgRightShadow from '@/assets/about/Dinosaur-bone-vector-art-illustration-Graphics-37857416-2-580x387.png';
 import { Button } from '@/components/ui/button';
 
 const AboutOrFeatures = () => {
@@ -24,6 +25,10 @@ const AboutOrFeatures = () => {
             </div>
             {/* --------------- about contain info section ------------- */}
             <div className='w-[50%]'>
+
+              {/* about contain section shadow */}
+              <img className='absolute 2xl:w-[30%] lg:w-auto 2xl:top-[-240px] 2xl:right-[540px]' src={aboutImgRightShadow} alt="image" />
+
               <div className='border-[3px] border-dashed lg:rounded-[30px] lg:pl-[50px]'>
                 <div>
                   <p className='xl:mt-[60px] xl:text-[80px] lg:leading-[80px] lg:tracking-[2.4px]'><span className='text-[#FFF]'>About</span> snax</p>
