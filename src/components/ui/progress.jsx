@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 const Progress = React.forwardRef(({ className, value, ...props }, ref) => (
   <ProgressPrimitive.Root
     ref={ref}
-    className={cn("relative h-4 w-full overflow-hidden rounded-full bg-[#000]", className)}
+    className={cn("relative h-4 lg:h-3 xl:h-4 w-full overflow-hidden rounded-full bg-[#000]", className)}
     {...props}>
     <ProgressPrimitive.Indicator
       className="h-full w-full flex-1 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] transition-all rounded-full"
