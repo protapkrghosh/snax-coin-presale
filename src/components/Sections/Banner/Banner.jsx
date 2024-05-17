@@ -84,7 +84,7 @@ const Banner = () => {
     }
     timerComponents.push(
       <span key={interval} className="">
-        <span className="text-[#FFF4E7] font-bold lg:tracking-[3px] text-[32px] md:text-[43px] lg:text-[32px] xl:text-[38px] 2xl:text-[43px] rounded-[8px] px-7 lg:px-[17px] xl:px-[17px] 2xl:px-6 ml-3">
+        <span className="text-[#FFF4E7] font-bold lg:tracking-[3px] text-[32px] md:text-[37px] lg:text-[32px] xl:text-[38px] 2xl:text-[43px] rounded-[8px] px-7 lg:px-[17px] xl:px-[17px] 2xl:px-6 ml-3">
           {timeLeft[interval]}
         </span>{" "}
 
@@ -97,11 +97,11 @@ const Banner = () => {
 
 
   return (
-    <div className="mt-[-80px]">
-      <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[150vh] xl:h-[155vh] 2xl:h-[140vh] w-full hidden md:block" />
-      <div className="-mt-[850px] lg:-mt-[670px] xl:-mt-[850px] 2xl:-mt-[1085px]">
+    <div className="lg:mt-[-80px]">
+      <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[150vh] xl:h-[155vh] 2xl:h-[140vh] w-full hidden lg:block" />
+      <div className="lg:-mt-[670px] xl:-mt-[850px] 2xl:-mt-[1085px] bg-[#295949] lg:bg-transparent">
         <Container>
-          <div className="lg:flex justify-between">
+          <div className="flex flex-col-reverse lg:flex-row justify-between">
             {/* banner text section  */}
             <div className="w-[50%] lg:mt-[-70px] xl:mt-0">
               <p className="text-[#FFF4E7] font-gagalin text-[45px] xl:text-[60px] 2xl:text-[90px] xl:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
@@ -130,15 +130,15 @@ const Banner = () => {
 
             
             {/* -------------- Buy now card ------------ */}
-            <div className="w-[50%] flex justify-end">
+            <div className="w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-16 lg:mt-0">
               <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
                 <div className="flex justify-end">
-                  <img src={photoFrame} alt="Image" className="w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
+                  <img src={photoFrame} alt="Image" className="w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] md:h-[760px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
                 </div>
 
-                <div className="mt-[-850px] lg:mt-[-690px] xl:mt-[-800px] 2xl:mt-[-850px] lg:ml-[10px] 2xl:ml-[18px]">
-                  <div className="md:w-2/3 lg:w-[380px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] lg:px-[20px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
-                    <h3 className="text-center lg:text-[22px] xl:text-[23px] 2xl:text-[28px] lg:mb-[-15px] xl:mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
+                <div className="mt-[-747px] lg:mt-[-690px] xl:mt-[-800px] 2xl:mt-[-850px] lg:ml-[10px] 2xl:ml-[18px]">
+                  <div className="lg:w-[380px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] lg:px-[20px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
+                    <h3 className="text-center text-[24px] lg:text-[22px] xl:text-[23px] 2xl:text-[28px] lg:mb-[-15px] xl:mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
                     {/* Dynamic Timer */}
                     <div className="mt-[30px] relative bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[20px] h-[110px] lg:h-[85px] xl:h-[110px]">
@@ -152,7 +152,7 @@ const Banner = () => {
                         <p className="text-[17px] md:text-[21px] lg:text-[15px] xl:text-[18px] 2xl:text-[23px] lg:tracking-[1.98px] -mb-2">Second</p>
                       </div>
 
-                      <h2 className="absolute -left-[11px] md:left-0 lg:-left-[12px] xl:left-0">
+                      <h2 className="absolute -left-[11px] lg:-left-[12px] xl:left-0">
                         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
                       </h2>
                     </div>
@@ -195,7 +195,7 @@ const Banner = () => {
                       </div>
 
                       <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] w-fit h-fit p-[1px] rounded-[30px]">
-                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[8px] xl:py-[10px] rounded-[30px]">
+                        <div className="flex items-center gap-3 2xl:gap-5 bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] w-fit px-4 lg:px-2 xl:px-4 py-[10px] lg:py-[8px] xl:py-[10px] rounded-[30px]">
                           <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[21px] 2xl:w-[28px]" />
                           <p className="text-[17px] lg:text-[15px] xl:text-[19px] 2xl:text-[22px] text-start lg:leading-[26.4px] lg:tracking-[1.98px] mr-5 md:mr-0">CARD</p>
                         </div>
@@ -229,21 +229,21 @@ const Banner = () => {
                     </div>
 
                     {/* Button */}
-                    <div className="mt-[20px] xl:mt-[40px] lg:flex justify-between gap-x-6">
-                      <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full lg:h-[50px] xl:h-auto lg:w-1/2">
+                    <div className="mt-[20px] xl:mt-[40px] flex justify-between gap-x-6">
+                      <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] md:h-[52px] lg:h-[50px] xl:h-auto w-1/2">
                         <button className="text-[#000] text-[18px] lg:text-[14px] xl:text-[15px] 2xl:text-[18px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] tracking-[2px] 2xl:tracking-[3px] w-full h-full">Connect Wallet</button>
                       </div>
 
-                      <div className="relative lg:w-1/2">
-                        <img src={icon4} alt="Image" className="w-[23px] lg:w-[21px] xl:w-[23px] 2xl:w-[26px] absolute top-8 lg:top-[14px] xl:top-[14px] 2xl:top-[16px] left-16 md:left-24 lg:left-2 xl:left-2 2xl:left-3 cursor-pointer" />
+                      <div className="relative w-1/2">
+                        <img src={icon4} alt="Image" className="w-[23px] lg:w-[21px] xl:w-[23px] 2xl:w-[26px] absolute top-8 md:top-[15px] lg:top-[14px] xl:top-[14px] 2xl:top-[16px] left-16 md:left-3 lg:left-2 xl:left-2 2xl:left-3 cursor-pointer" />
 
-                        <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-auto lg:h-[50px] xl:h-auto">
-                          <button className="text-[#000] text-[18px] lg:text-[14px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 2xl:pl-[54px] py-[13px] 2xl:py-[12px] px-[10px] lg:pl-[38px] xl:px-[10px] lg:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full lg:h-[50px] xl:h-auto">Buy with BNB</button>
+                        <div className="p-[1px] bg-gradient-to-r from-[#f8b415cc] to-[#0fc1c7e3] rounded-[30px] w-full xl:w-auto md:h-[52px] lg:h-[50px] xl:h-auto">
+                          <button className="text-[#000] text-[18px] lg:text-[14px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-gradient-to-l from-[#e2a515d8] to-[#0ea6acfb] pl-10 md:pl-14 lg:pl-[38px] 2xl:pl-[54px] py-[13px] 2xl:py-[12px] px-[10px] xl:px-[10px] lg:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full md:h-[50px] xl:h-auto">Buy with BNB</button>
                         </div>
                       </div>
                     </div>
 
-                    <p className="mt-[30px] pb-[12px] 2xl:pb-[46px] tracking-[1.44px] text-center lg:w-[75%] xl:w-[65%] 2xl:w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
+                    <p className="mt-[30px] pb-[12px] 2xl:pb-[46px] tracking-[1.44px] text-center w-[60%] lg:w-[75%] xl:w-[65%] 2xl:w-[55%] mx-auto">You do not have enough SOL to pay for this transaction.</p>
                   </div>
                 </div>
               </div>
