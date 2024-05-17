@@ -6,7 +6,7 @@ import Container from '../Container/Container';
 
 const MemeGenerator = () => {
   return (
-    <div className='bg-[#154a48] -mt-[2px] py-[80px]'>
+    <div className='-mt-[2px] py-[80px]'>
       <Container>
         <div>
           {/* Meme heading */}
