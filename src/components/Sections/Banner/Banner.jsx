@@ -104,16 +104,18 @@ const Banner = () => {
           <div className="flex flex-col-reverse lg:flex-row justify-between">
             {/* banner text section  */}
             <div className="lg:w-[50%] mt-16 lg:mt-[-70px] xl:mt-0">
-              <p className="text-[#FFF4E7] font-gagalin text-[45px] xl:text-[60px] 2xl:text-[90px] xl:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
+              <p className="text-[#FFF4E7] font-gagalin text-center md:text-start text-[30px] md:text-[45px] xl:text-[60px] 2xl:text-[90px] xl:leading-[90px] lg:tracking-[2.7px]">Welcome to</p>
 
-              <p className="mt-[-15px] xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-[90px] lg:text-[75px] xl:text-[110px] 2xl:text-[140px] xl:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
+              <p className="mt-[-15px] xl:mt-[-29px] 2xl:mt-[-5px] bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#22DDE2] text-center md:text-start text-[70px] md:text-[90px] lg:text-[75px] xl:text-[110px] 2xl:text-[140px] xl:leading-[150px] lg:tracking-[3.8px]">snax coin</p>
 
-              <p className="mt-[5px] 2xl:mt-[25px] text-[#CED9D7] font-gagalin text-[17px] lg:text-[19px] xl:text-[20px] 2xl:text-[28px] xl:leading-[35px] 2xl:leading-[44.8px] lg:tracking-[1.12px]">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
+              <p className="mt-[5px] 2xl:mt-[25px] text-[#CED9D7] font-gagalin text-[17px] lg:text-[19px] xl:text-[20px] 2xl:text-[28px] xl:leading-[35px] 2xl:leading-[44.8px] lg:tracking-[1.12px] hidden md:block">the crypto sensation inspired by the tale of <br /> a savvy pup!"</p>
+
+              <p className="mt-[5px] 2xl:mt-[25px] text-[#CED9D7] font-gagalin text-center md:text-start text-[17px] lg:text-[19px] xl:text-[20px] 2xl:text-[28px] xl:leading-[35px] 2xl:leading-[44.8px] lg:tracking-[1.12px] block md:hidden">the crypto sensation inspired by the tale of a savvy pup!"</p>
 
               {/* Copied text */}
               <div className='mt-[30px] flex justify-center md:justify-start'>
                 <div className="bg-gradient-to-l to-[#1cb4b2] from-[#c9af31] p-[1px] rounded-md">
-                  <div className="flex justify-center items-center text-[18px] lg:text-[15px] xl:text-[18px] bg-gradient-to-l to-[#278274] from-[#5d814d] p-[6px] xl:p-2 2xl:p-3 rounded-md">
+                  <div className="flex justify-center items-center md:text-[18px] lg:text-[15px] xl:text-[18px] bg-gradient-to-l to-[#278274] from-[#5d814d] p-[6px] xl:p-2 2xl:p-3 rounded-md">
                     <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                     <button onClick={() => { setCopied(!copied); copyLink() }}>
                       {
@@ -125,18 +127,18 @@ const Banner = () => {
                 </div>
               </div>
 
-              <Button className="mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 xl:px-[35px] 2xl:px-[50px] mb-10 lg:mb-0 rounded-[10px] duration-300">CONNECT</Button>
+              <Button className="mt-[40px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] text-[#000] text-[20px] font-normal leading-[30px] tracking-[0.8px] py-4 xl:px-[35px] 2xl:px-[50px] mb-10 lg:mb-0 rounded-[10px] duration-300 w-full md:w-fit">CONNECT</Button>
             </div>
 
             
             {/* -------------- Buy now card ------------ */}
-            <div className="w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-12 lg:mt-0">
-              <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] bgBlur">
-                <div className="flex justify-end">
-                  <img src={photoFrame} alt="Image" className="w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] md:h-[760px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
+            <div className="md:w-[70%] lg:w-[50%] mx-auto lg:mx-0 flex justify-end mt-12 lg:mt-0">
+              <div className="lg:mt-[-85px] xl:mt-[-70px] 2xl:mt-[-70px] lg:bgBlur">
+                <div className="md:flex justify-end">
+                  <img src={photoFrame} alt="Image" className="w-[93%] mx-auto md:w-auto lg:w-[400px] xl:w-[452px] 2xl:w-[580px] md:h-[760px] lg:h-[710px] xl:h-[810px] 2xl:h-[910px]" />
                 </div>
 
-                <div className="mt-[-747px] lg:mt-[-690px] xl:mt-[-800px] 2xl:mt-[-850px] lg:ml-[10px] 2xl:ml-[18px]">
+                <div className="mt-[-570px] md:mt-[-747px] lg:mt-[-690px] xl:mt-[-800px] 2xl:mt-[-850px] lg:ml-[10px] 2xl:ml-[18px]">
                   <div className="lg:w-[380px] xl:w-[430px] 2xl:w-[540px] rounded-[28px] px-[30px] lg:px-[20px] xl:px-[20px] 2xl:px-[40px] py-[20px] text-[#000]">
                     <h3 className="text-center text-[24px] lg:text-[22px] xl:text-[23px] 2xl:text-[28px] lg:mb-[-15px] xl:mb-5 lg:leading-[33px] lg:tracking-[2.8px]">SNAX PRESALE IS NOW LIVE!</h3>
 
