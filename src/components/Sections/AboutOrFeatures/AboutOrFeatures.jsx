@@ -5,6 +5,8 @@ import aboutImgleftShadow from '@/assets/about/Group 1171275238.png';
 import aboutImgRightShadow from '@/assets/about/Dinosaur-bone-vector-art-illustration-Graphics-37857416-2-580x387.png';
 // ourfeatures
 import featuresTitleShadow from '@/assets/ourFeatures/Group 1171275247.png';
+import featuresMainCenterImg from '@/assets/ourFeatures/Group 1171275245.png';
+
 import { Button } from '@/components/ui/button';
 
 const AboutOrFeatures = () => {
@@ -64,6 +66,54 @@ const AboutOrFeatures = () => {
             <div>
               <h1 className='text-white text-[80px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
             </div>
+
+            <div>
+
+              <div>
+                <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
+                <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
+                    <p className='text-[#FFF] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>There is only 5% tax both for buy and sell and will be spent for marketing purposes only.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
+                <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
+                    <p className='text-[#FFF] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>There is only 5% tax both for buy and sell and will be spent for marketing purposes only.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              {/* center image  */}
+              <div className='2xl:mt-[300px]'>
+                <img className='2xl:mx-auto 2xl:w-auto' src={featuresMainCenterImg} alt="image" />
+              </div>
+
+              <div>
+                <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
+                <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
+                    <p className='text-[#FFF] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>There is only 5% tax both for buy and sell and will be spent for marketing purposes only.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
+                <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
+                    <p className='text-[#FFF] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>There is only 5% tax both for buy and sell and will be spent for marketing purposes only.</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
           </div>
 
 
