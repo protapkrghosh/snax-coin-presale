@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 const AboutOrFeatures = () => {
   return (
-    <div className='2xl:pt-[380px] bg-[#194c47]'>
+    <div className='2xl:pt-[420px] bg-[#194c47]'>
       {/* container section  */}
       <div className='relative'>
 
@@ -18,7 +18,7 @@ const AboutOrFeatures = () => {
             <div className='w-[50%]'>
 
               {/* about image section shadow */}
-              <img className='relative lg:w-auto 2xl:top-[-5px] 2xl:left-[-110px]' src={aboutImgleftShadow} alt="image" />
+              <img className='absolute 2xl:w-[12%] lg:w-auto 2xl:top-[-100px] 2xl:left-[100px]' src={aboutImgleftShadow} alt="image" />
 
               <img className='2xl:w-auto' src={aboutImg} alt="image" />
             </div>
