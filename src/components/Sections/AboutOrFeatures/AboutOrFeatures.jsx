@@ -31,7 +31,7 @@ const AboutOrFeatures = () => {
 
               <div className='border-[3px] border-dashed lg:rounded-[30px] lg:pl-[50px]'>
                 <div>
-                  <p className='xl:mt-[60px] xl:text-[80px] lg:leading-[80px] lg:tracking-[2.4px]'><span className='text-[#FFF]'>About</span> snax</p>
+                  <p className='xl:mt-[60px] text-[#FFF] xl:text-[80px] lg:leading-[80px] lg:tracking-[2.4px]'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>snax</span></p>
 
                   <p className='lg:mt-[30px] 2xl:w-[92%] text-[#E5DADA] lg:text-[20px] lg:leading-[36px] lg:tracking-[0.8px]'>In the enchanting narrative of Snax, the crypto-savvy pup, lies the genesis of Snax Coin, a beacon of innovation in the blockchain realm. Snax Coin's mission is to democratize access to financial opportunities worldwide, fostering a community-driven ecosystem where individuals can transact securely and transparently.</p>
 
