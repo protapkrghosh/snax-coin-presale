@@ -10,8 +10,8 @@ const OurWayMoon = () => {
     <div className='mt-[80px] mb-[109px] relative'>
       {/* Vector shape */}
       <div>
-        <img src={vector1} alt="Image" className='absolute left-0 top-[730px]' />
-        <img src={vector2} alt="Image" className='absolute right-0 top-[880px] opacity-10' />
+        <img src={vector1} alt="Image" className='xl:w-[150px] 2xl:w-auto absolute left-0 top-[610px] 2xl:top-[730px]' />
+        <img src={vector2} alt="Image" className='xl:w-[150px] 2xl:w-auto absolute right-0 top-[880px] opacity-10' />
       </div>
 
       <Container>
@@ -27,10 +27,10 @@ const OurWayMoon = () => {
         {/* Moon section contents */}
         <div className='relative'>
           {/* PHASE ONE */}
-          <div className='absolute top-10 right-[420px]'>
+          <div className='absolute 2xl:top-10 xl:right-[270px] 2xl:right-[420px]'>
             <h3 className='text-white text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[15px]'>PHASE 1</h3>
 
-            <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[15px]'>
+            <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[10px] 2xl:space-y-[15px]'>
               <div className='flex items-center'>
                 <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
                 <p>PancakeSwap Listing</p>
@@ -59,10 +59,10 @@ const OurWayMoon = () => {
           </div>
 
           {/* PHASE TWO */}
-          <div className='absolute top-[545px] left-[200px]'>
+          <div className='absolute xl:top-[410px] 2xl:top-[545px] xl:left-[120px] 2xl:left-[200px]'>
             <h3 className='text-white text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[15px]'>PHASE 2</h3>
 
-            <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[15px]'>
+            <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[10px] 2xl:space-y-[15px]'>
               <div className='flex items-center'>
                 <div className='w-3 h-3 bg-white rounded-full mr-[10px]' />
                 <p>Extreme Marketing Push</p>
@@ -87,7 +87,7 @@ const OurWayMoon = () => {
 
 
           {/* PHASE THREE */}
-          <div className='absolute bottom-32 right-[105px]'>
+          <div className='absolute xl:bottom-[65px] 2xl:bottom-32 xl:right-[35px] 2xl:right-[105px]'>
             <h3 className='text-white text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[15px]'>PHASE 3</h3>
 
             <div className='text-[#B6D4D4] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[15px]'>
