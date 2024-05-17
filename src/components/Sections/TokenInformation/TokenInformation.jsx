@@ -102,15 +102,25 @@ const TokenInformation = () => {
               {/* Chart Info */}
               <div className='lg:w-[50%]'>
                 <div className='flex justify-between items-center gap-x-16'>
-                  <div>
-                    <img src={chart} alt="Image" />
+                  <div className='relative'>
+                    <img src={chart} alt="Image" className=''/>
+
+                    <div className='text-white text-[20px] lg:tracking-[0.6px]'>
+                      <p className='absolute top-[38px] left-24'>10%</p>
+                      <p className='absolute top-[147px] left-4'>15%</p>
+                      <p className='absolute top-[62px] right-[52px]'>25%</p>
+                      <p className='absolute bottom-[135px] right-[17px]'>25%</p>
+                      <p className='absolute bottom-[80px] left-[85px]'>25%</p>
+                    </div>
+
+                    <p className='absolute top-[248px] left-[238px] text-[40px] leading-[40px] lg:tracking-[2px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>150 b</span></p>
                   </div>
 
                   {/* Presale contents */}
-                  <div className='space-y-[25px]'>
-                    
+                  <div className='space-y-[25px] mt-10'>
+
                     <div className='flex items-center'>
-                      <img src={dot1} alt="Image" className='mr-[30px]'/>
+                      <img src={dot1} alt="Image" className='mr-[30px]' />
                       <div>
                         <div>
                           <p className='text-[#8C1BCD] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>Presale</p>
@@ -121,7 +131,7 @@ const TokenInformation = () => {
                     </div>
 
                     <div className='flex items-center'>
-                      <img src={dot2} alt="Image" className='mr-[30px]'/>
+                      <img src={dot2} alt="Image" className='mr-[30px]' />
                       <div>
                         <div>
                           <p className='text-[#0FB0B0] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>marketing</p>
@@ -132,7 +142,7 @@ const TokenInformation = () => {
                     </div>
 
                     <div className='flex items-center'>
-                      <img src={dot3} alt="Image" className='mr-[30px]'/>
+                      <img src={dot3} alt="Image" className='mr-[30px]' />
                       <div>
                         <div>
                           <p className='text-[#907602] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>treasury</p>
@@ -143,7 +153,7 @@ const TokenInformation = () => {
                     </div>
 
                     <div className='flex items-center'>
-                      <img src={dot4} alt="Image" className='mr-[30px]'/>
+                      <img src={dot4} alt="Image" className='mr-[30px]' />
                       <div>
                         <div>
                           <p className='text-[#41A01E] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>staking</p>
@@ -154,7 +164,7 @@ const TokenInformation = () => {
                     </div>
 
                     <div className='flex items-center'>
-                      <img src={dot5} alt="Image" className='mr-[30px]'/>
+                      <img src={dot5} alt="Image" className='mr-[30px]' />
                       <div>
                         <div>
                           <p className='text-[#1B95CD] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>liquidity</p>
