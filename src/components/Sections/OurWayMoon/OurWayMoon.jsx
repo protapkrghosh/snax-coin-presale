@@ -1,11 +1,19 @@
 import cloud from '@/assets/meme-Ge4nerator/Group 1171275247.png';
 import grass from '@/assets/meme-Ge4nerator/Group.png';
 import shape from '@/assets/ourWayToTheMoon/Group 1171275272.png';
+import vector1 from '@/assets/ourWayToTheMoon/Vector.png';
+import vector2 from '@/assets/ourWayToTheMoon/Group.png';
 import Container from '../Container/Container';
 
 const OurWayMoon = () => {
   return (
-    <div className='mt-[80px] mb-[109px]'>
+    <div className='mt-[80px] mb-[109px] relative'>
+      {/* Vector shape */}
+      <div>
+        <img src={vector1} alt="Image" className='absolute left-0 top-[730px]' />
+        <img src={vector2} alt="Image" className='absolute right-0 top-[880px] opacity-10' />
+      </div>
+
       <Container>
         {/* Meme heading */}
         <div className='flex justify-center'>
@@ -114,7 +122,7 @@ const OurWayMoon = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Section Image */}
           <img src={shape} alt="Image" />
         </div>
