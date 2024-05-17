@@ -18,9 +18,16 @@ body {
   border-bottom-right-radius: 100px;
 }
 
+/* Token Information */
 .textStroke {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
+}
+
+.tokenShadow {
+  border-radius: 261px;
+  background: #FBAD05;
+  filter: blur(342px);
 }
 
 @layer base {

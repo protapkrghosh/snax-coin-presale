@@ -43,8 +43,9 @@ const TokenInformation = () => {
           <Container>
             <div className='lg:flex justify-between items-center py-[100px]'>
               {/* Token Information contents */}
-              <div className='lg:w-[50%]'>
+              <div className='lg:w-[50%] relative'>
                 <img src={dog} alt="Image" className='mb-[-65px] ml-[-18px] z-10' />
+                <div className='w-[250px] h-[250px] absolute top-52 left-20 tokenShadow'/>
 
                 <div className='p-[30px] xl:p-[60px] border-[3px] border-dashed border-[#fff] rounded-[30px] w-fit'>
                   <h1 className='text-white text-[40px] lg:leading-[40px] lg:tracking-[1.2px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>token</span> information</h1>
@@ -84,8 +85,8 @@ const TokenInformation = () => {
 
                   {/* Copied text */}
                   <div className='mt-[30px] flex justify-center md:justify-start'>
-                    <div className="bg-gradient-to-l to-[#179b99] from-[#ac9429] p-[1px] rounded-md">
-                      <div className="flex justify-center items-center text-[15.5px] md:text-[18px] lg:text-[15px] xl:text-[18px] bg-gradient-to-l to-[#226257] from-[#3a6246] p-[6px] xl:p-2 2xl:p-3 rounded-md">
+                    <div className="bg-gradient-to-l to-[#1cb1ae] from-[#ac9429] p-[1px] rounded-[5px]">
+                      <div className="flex justify-center items-center text-[15.5px] md:text-[18px] lg:text-[15px] xl:text-[18px] bg-gradient-to-l to-[#276e62] from-[#3a6246] p-[6px] xl:p-2 2xl:p-3 rounded-md">
                         <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                         <button onClick={() => { setCopied(!copied); copyLink() }}>
                           {
