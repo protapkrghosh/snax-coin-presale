@@ -86,16 +86,16 @@ const NavBar = () => {
 
             <Link to="home" smooth={true} offset={-30} duration={600} className="cursor-pointer">
               <img src={logo} alt="Logo" className="mr-3 ml-5 md:ml-0 hidden lg:block" />
-              <img src={logoSm} alt="Logo" className="w-[40px] mr-3 ml-5 md:ml-0 py-3 block lg:hidden" />
+              <img src={logoSm} alt="Logo" className="w-[40px] mr-3 ml-5 md:ml-0 block lg:hidden" />
             </Link>
 
-            <div onClick={() => setOpen(!open)} className="text-4xl absolute right-8 top-[18px] cursor-pointer md:hidden">
+            <div onClick={() => setOpen(!open)} className="text-4xl absolute right-8 top-[20px] cursor-pointer md:hidden">
               {
                 open ? <IoClose className="text-[#32867f]" /> : <IoMenu className="text-[#32867f]" />
               }
             </div>
 
-            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[65px] opacity-100 bg-[#1c5752] z-10' : 'top-[-490px]'}`}>
+            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[70px] opacity-100 bg-[#1c5752] z-10' : 'top-[-490px]'}`}>
 
               <li>
                 <Link to="home" smooth={true} offset={-30} duration={600} className={`xl:text-[18px] ml-5 md:ml-4 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "home" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("home")}>Home</Link>
