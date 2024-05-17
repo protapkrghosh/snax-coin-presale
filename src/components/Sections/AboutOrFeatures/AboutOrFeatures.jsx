@@ -7,31 +7,31 @@ import { Button } from '@/components/ui/button';
 
 const AboutOrFeatures = () => {
   return (
-    <div className='2xl:pt-[420px] xl:pt-[290px] bg-[#194c47]'>
+    <div className='2xl:pt-[420px] xl:pt-[290px] lg:pt-[240px] bg-[#194c47]'>
       {/* container section  */}
       <div className='relative'>
 
         <Container>
 
           {/* --------------- About section --------------- */}
-          <div className='flex justify-center items-center lg:gap-[70px]'>
+          <div className='flex justify-center items-center xl:gap-[70px] lg:gap-[30px]'>
             {/* --------------- about image section ------------- */}
-            <div className='2xl:w-[48%] xl:w-[45%]'>
+            <div className='2xl:w-[48%] xl:w-[45%] lg:w-[45%]'>
 
               {/* about image section shadow */}
-              <img className='absolute 2xl:w-[12%] xl:w-[20%] lg:w-auto 2xl:top-[-100px] xl:top-[-100px] 2xl:left-[100px] xl:left-[100px]' src={aboutImgleftShadow} alt="image" />
+              <img className='absolute 2xl:w-[12%] xl:w-[20%] lg:w-auto 2xl:top-[-100px] xl:top-[-100px] lg:top-[-100px] 2xl:left-[100px] xl:left-[100px] lg:left-[80px]' src={aboutImgleftShadow} alt="image" />
 
               <img className='2xl:w-auto' src={aboutImg} alt="image" />
             </div>
             {/* --------------- about contain info section ------------- */}
-            <div className='2xl:w-[52%] xl:w-[55%]'>
+            <div className='2xl:w-[52%] xl:w-[55%] lg:w-[55%]'>
 
               {/* about contain section shadow */}
-              <img className='absolute 2xl:w-[30%] xl:w-[38%] lg:w-auto 2xl:top-[-240px] xl:top-[-220px] 2xl:right-[570px] xl:right-[360px]' src={aboutImgRightShadow} alt="image" />
+              <img className='absolute 2xl:w-[30%] xl:w-[38%] lg:w-[40%] 2xl:top-[-240px] xl:top-[-220px] lg:top-[-180px] 2xl:right-[570px] xl:right-[360px] lg:right-[270px]' src={aboutImgRightShadow} alt="image" />
 
-              <div className='border-[3px] border-dashed lg:rounded-[30px] lg:pl-[50px]'>
+              <div className='border-[3px] border-dashed lg:rounded-[30px] xl:pl-[50px] lg:pl-[40px]'>
                 <div>
-                  <p className='xl:mt-[60px] text-[#FFF] xl:text-[80px] lg:leading-[80px] lg:tracking-[2.4px]'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>snax</span></p>
+                  <p className='xl:mt-[60px] lg:mt-[40px] text-[#FFF] xl:text-[80px] lg:text-[65px] lg:leading-[80px] lg:tracking-[2.4px]'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>snax</span></p>
 
                   <p className='lg:mt-[30px] 2xl:w-[92%] xl:w-[97%] text-[#E5DADA] 2xl:text-[20px] lg:text-[19px] lg:leading-[36px] lg:tracking-[0.8px]'>In the enchanting narrative of Snax, the crypto-savvy pup, lies the genesis of Snax Coin, a beacon of innovation in the blockchain realm. Snax Coin's mission is to democratize access to financial opportunities worldwide, fostering a community-driven ecosystem where individuals can transact securely and transparently.</p>
 
