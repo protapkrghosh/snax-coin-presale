@@ -18,6 +18,11 @@ body {
   border-bottom-right-radius: 100px;
 }
 
+.textStroke {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

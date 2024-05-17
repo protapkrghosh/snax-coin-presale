@@ -35,13 +35,15 @@ const TokenInformation = () => {
 
   return (
     <div className='relative overflow-hidden'>
-      <img src={dogBone} alt="Image" className='absolute bottom-[-113px] left-[540px]'/>
+      {/* Dog bone */}
+      <img src={dogBone} alt="Image" className='absolute bottom-[-113px] left-[540px]' />
+
       <div style={{ backgroundImage: `url(${shapeImg2})` }} className='bg-no-repeat bg-contain bg-center'>
         <div className='bg-gradient-to-l from-[#d19f2b27] to-[#0fc1c727] '>
           <Container>
-            <div className='lg:flex justify-between py-[100px]'>
+            <div className='lg:flex justify-between items-center py-[100px]'>
               {/* Token Information contents */}
-              <div>
+              <div className='lg:w-[50%]'>
                 <img src={dog} alt="Image" className='mb-[-65px] ml-[-18px] z-10' />
 
                 <div className='p-[30px] xl:p-[60px] border-[3px] border-dashed border-[#fff] rounded-[30px] w-fit'>
@@ -98,8 +100,71 @@ const TokenInformation = () => {
               </div>
 
               {/* Chart Info */}
-              <div>
+              <div className='lg:w-[50%]'>
+                <div className='flex justify-between items-center gap-x-16'>
+                  <div>
+                    <img src={chart} alt="Image" />
+                  </div>
 
+                  {/* Presale contents */}
+                  <div className='space-y-[25px]'>
+                    
+                    <div className='flex items-center'>
+                      <img src={dot1} alt="Image" className='mr-[30px]'/>
+                      <div>
+                        <div>
+                          <p className='text-[#8C1BCD] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>Presale</p>
+                          <p className='text-[#8C1BCD] text-[18px] lg:tracking-[0.54px]'>Presale</p>
+                        </div>
+                        <p className='text-white text-[20px] lg:tracking-[0.6px] 2xl:mt-[5px]'>25%</p>
+                      </div>
+                    </div>
+
+                    <div className='flex items-center'>
+                      <img src={dot2} alt="Image" className='mr-[30px]'/>
+                      <div>
+                        <div>
+                          <p className='text-[#0FB0B0] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>marketing</p>
+                          <p className='text-[#0FB0B0] text-[18px] lg:tracking-[0.54px]'>marketing</p>
+                        </div>
+                        <p className='text-white text-[20px] lg:tracking-[0.6px] 2xl:mt-[5px]'>25%</p>
+                      </div>
+                    </div>
+
+                    <div className='flex items-center'>
+                      <img src={dot3} alt="Image" className='mr-[30px]'/>
+                      <div>
+                        <div>
+                          <p className='text-[#907602] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>treasury</p>
+                          <p className='text-[#907602] text-[18px] lg:tracking-[0.54px]'>treasury</p>
+                        </div>
+                        <p className='text-white text-[20px] lg:tracking-[0.6px] 2xl:mt-[5px]'>25%</p>
+                      </div>
+                    </div>
+
+                    <div className='flex items-center'>
+                      <img src={dot4} alt="Image" className='mr-[30px]'/>
+                      <div>
+                        <div>
+                          <p className='text-[#41A01E] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>staking</p>
+                          <p className='text-[#41A01E] text-[18px] lg:tracking-[0.54px]'>staking</p>
+                        </div>
+                        <p className='text-white text-[20px] lg:tracking-[0.6px] 2xl:mt-[5px]'>15%</p>
+                      </div>
+                    </div>
+
+                    <div className='flex items-center'>
+                      <img src={dot5} alt="Image" className='mr-[30px]'/>
+                      <div>
+                        <div>
+                          <p className='text-[#1B95CD] text-[18px] lg:tracking-[0.54px] textStroke mb-[-27px]'>liquidity</p>
+                          <p className='text-[#1B95CD] text-[18px] lg:tracking-[0.54px]'>liquidity</p>
+                        </div>
+                        <p className='text-white text-[20px] lg:tracking-[0.6px] 2xl:mt-[5px]'>15%</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </Container>
