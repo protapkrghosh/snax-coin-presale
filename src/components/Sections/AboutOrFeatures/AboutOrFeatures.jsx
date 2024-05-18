@@ -82,39 +82,42 @@ const AboutOrFeatures = () => {
               </div>
 
               {/* card 2 */}
-              <div>
+              <div className='2xl:ml-[-18px] 2xl:w-[96%] 2xl:mt-[120px]'>
                 <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>no ownership</p>
                 <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
                   <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
                     <p className='text-[#E7D7CB] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>Our smart contract is renounced which means technically no one owns the contract and cannot do execute write functions on it.</p>
                   </div>
                 </div>
+                <img className='2xl:mt-[-210px] 2xl:ml-[250px] 2xl:w-auto' src={featuresCardImg} alt="image" />
               </div>
 
 
               {/* center image  */}
-              <div className='2xl:mt-[300px]'>
+              <div className='2xl:mt-[-210px]'>
                 <img className='2xl:mx-auto 2xl:w-auto' src={featuresMainCenterImg} alt="image" />
               </div>
 
               {/* card 3 */}
-              <div>
+              <div className='2xl:ml-[1005px] 2xl:w-[95%] 2xl:mt-[-225px]'>
                 <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>no mint</p>
                 <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
                   <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
                     <p className='text-[#E7D7CB] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>Our total supply is fixed and cannot be changed and minted more since there is no any mint function in our contract.</p>
                   </div>
                 </div>
+                <img className='2xl:mt-[-210px] 2xl:ml-[240px] 2xl:w-auto' src={featuresCardImg} alt="image" />
               </div>
 
               {/* card 4 */}
-              <div>
+              <div className='2xl:ml-[495px] 2xl:w-[96%] 2xl:mt-[50px]'>
                 <p className='text-[#FFF] text-[28px] lg:leading-[33px] lg:tracking-[0.84px]'>Secure</p>
                 <div className='2xl:mt-[30px] 2xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
                   <div className='bg-[#18534f] 2xl:px-[40px] 2xl:py-[30px] rounded-[30px]'>
                     <p className='text-[#E7D7CB] text-[18px] lg:leading-[28px] lg:tracking-[0.54px]'>You are completely SAFU. We do have our smart contract audited by Coinsult!</p>
                   </div>
                 </div>
+                <img className='2xl:mt-[-210px] 2xl:ml-[250px] 2xl:w-auto' src={featuresCardImg} alt="image" />
               </div>
 
 
