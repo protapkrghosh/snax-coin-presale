@@ -34,7 +34,7 @@ const TokenInformation = () => {
 
 
   return (
-    <div className='relative overflow-hidden'>
+    <div className='relative overflow-hidden' id='tokenomics'>
       {/* Dog bone */}
       <img src={dogBone} alt="Image" className='absolute md:bottom-[-60px] lg:bottom-[-75px] xl:bottom-[-89px] 2xl:bottom-[-113px] md:left-[550px] lg:left-[290px] xl:left-[360px] 2xl:left-[540px] w-[280px] lg:w-[340px] xl:w-[400px] 2xl:w-auto hidden md:block' />
 
