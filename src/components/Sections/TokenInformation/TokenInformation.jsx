@@ -36,21 +36,21 @@ const TokenInformation = () => {
   return (
     <div className='relative overflow-hidden'>
       {/* Dog bone */}
-      <img src={dogBone} alt="Image" className='absolute bottom-[-113px] left-[540px]' />
+      <img src={dogBone} alt="Image" className='absolute bottom-[-113px] xl:bottom-[-89px] 2xl:bottom-[-113px] left-[540px] xl:left-[360px] 2xl:left-[540px] xl:w-[400px] 2xl:w-auto' />
 
-      <div style={{ backgroundImage: `url(${shapeImg2})` }} className='bg-no-repeat bg-contain bg-center'>
+      <div style={{ backgroundImage: `url(${shapeImg2})` }} className='bg-no-repeat xl:bg-cover 2xl:bg-contain bg-center'>
         <div className='bg-gradient-to-l from-[#d19f2b27] to-[#0fc1c727] '>
           <Container>
-            <div className='lg:flex justify-between items-center py-[100px]'>
+            <div className='lg:flex justify-between items-center py-[100px] 2xl:py-[100px]'>
               {/* Token Information contents */}
               <div className='lg:w-[50%] relative'>
-                <img src={dog} alt="Image" className='mb-[-65px] ml-[-18px] z-10' />
+                <img src={dog} alt="Image" className='mb-[-40px] 2xl:mb-[-65px] ml-[-18px] xl:w-[85px] 2xl:w-auto z-10' />
                 <div className='w-[250px] h-[250px] absolute top-52 left-20 tokenShadow'/>
 
-                <div className='p-[30px] xl:p-[60px] border-[3px] border-dashed border-[#fff] rounded-[30px] w-fit'>
+                <div className='p-[30px] xl:p-[40px] 2xl:p-[60px] border-[3px] border-dashed border-[#fff] rounded-[30px] w-fit'>
                   <h1 className='text-white text-[40px] lg:leading-[40px] lg:tracking-[1.2px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>token</span> information</h1>
 
-                  <div className='text-[#E7D7CB] text-[18px]'>
+                  <div className='text-[#E7D7CB] 2xl:text-[18px]'>
                     <p className='lg:leading-[30.6px] lg:tracking-[0.72px] mt-[30px] mb-[16px]'>snax tokenomics include smart staking rewards, <br /> meaning you can earn right away.</p>
 
                     <div className='space-y-[16px]'>
@@ -86,12 +86,12 @@ const TokenInformation = () => {
                   {/* Copied text */}
                   <div className='mt-[30px] flex justify-center md:justify-start'>
                     <div className="bg-gradient-to-l to-[#1cb1ae] from-[#ac9429] p-[1px] rounded-[5px]">
-                      <div className="flex justify-center items-center text-[15.5px] md:text-[18px] lg:text-[15px] xl:text-[18px] bg-gradient-to-l to-[#276e62] from-[#3a6246] p-[6px] xl:p-2 2xl:p-3 rounded-md">
+                      <div className="flex justify-center items-center text-[15.5px] md:text-[18px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] bg-gradient-to-l to-[#276e62] from-[#3a6246] p-[6px] xl:p-2 2xl:p-3 rounded-md">
                         <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                         <button onClick={() => { setCopied(!copied); copyLink() }}>
                           {
-                            copied ? <MdLibraryAddCheck className="text-[15px] md:text-[20px] lg:text-[15px] xl:text-[20px] cursor-pointer text-[#fff]" /> :
-                              <IoCopy className="text-[15px] md:text-[20px] lg:text-[15px] xl:text-[20px] cursor-pointer text-[#fff]" />
+                            copied ? <MdLibraryAddCheck className="text-[15px] md:text-[20px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] cursor-pointer text-[#fff]" /> :
+                              <IoCopy className="text-[15px] md:text-[20px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] cursor-pointer text-[#fff]" />
                           }
                         </button>
                       </div>
@@ -104,17 +104,17 @@ const TokenInformation = () => {
               <div className='lg:w-[50%]'>
                 <div className='flex justify-between items-center gap-x-16'>
                   <div className='relative'>
-                    <img src={chart} alt="Image" className=''/>
+                    <img src={chart} alt="Image" className='xl:scale-110 2xl:scale-100'/>
 
                     <div className='text-white text-[20px] lg:tracking-[0.6px]'>
-                      <p className='absolute top-[38px] left-24'>10%</p>
-                      <p className='absolute top-[147px] left-4'>15%</p>
-                      <p className='absolute top-[62px] right-[52px]'>25%</p>
-                      <p className='absolute bottom-[135px] right-[17px]'>25%</p>
-                      <p className='absolute bottom-[80px] left-[85px]'>25%</p>
+                      <p className='absolute top-[38px] xl:top-[5px] 2xl:top-[38px] left-24 xl:left-[60px] 2xl:left-24'>10%</p>
+                      <p className='absolute top-[147px] xl:top-[90px] 2xl:top-[147px] left-4 xl:left-[-6px] 2xl:left-4'>15%</p>
+                      <p className='absolute top-[62px] xl:top-[23px] 2xl:top-[62px] right-[52px] xl:right-[15px] 2xl:right-[52px]'>25%</p>
+                      <p className='absolute bottom-[135px] xl:bottom-[87px] 2xl:bottom-[135px] right-[17px] xl:right-[-12px] 2xl:right-[17px]'>25%</p>
+                      <p className='absolute bottom-[80px] xl:bottom-[44px] 2xl:bottom-[80px] left-[85px] xl:left-[45px] 2xl:left-[85px]'>25%</p>
                     </div>
 
-                    <p className='absolute top-[248px] left-[238px] text-[40px] leading-[40px] lg:tracking-[2px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>150 b</span></p>
+                    <p className='absolute top-[248px] xl:top-[175px] 2xl:top-[248px] left-[238px] xl:left-[165px] 2xl:left-[238px] text-[40px] xl:text-[35px] 2xl:text-[40px] leading-[40px] lg:tracking-[2px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>150 b</span></p>
                   </div>
 
                   {/* Presale contents */}
