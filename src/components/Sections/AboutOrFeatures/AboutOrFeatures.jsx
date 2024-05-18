@@ -63,9 +63,9 @@ const AboutOrFeatures = () => {
 
 
           {/* ------------------- our features section --------------- */}
-          <div className='2xl:pt-[170px] xl:pt-[160px]'>
+          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px]'>
             <div>
-              <h1 className='text-white 2xl:text-[80px] xl:text-[75px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
+              <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
             </div>
 
             <div>
