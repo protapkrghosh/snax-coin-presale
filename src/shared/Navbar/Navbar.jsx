@@ -102,11 +102,11 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="aboutToken" smooth={true} offset={0} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "aboutToken" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("aboutToken")}>About</Link>
+                <Link to="about" smooth={true} offset={50} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "about" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("about")}>About</Link>
               </li>
 
               <li>
-                <Link to="tokenomics" smooth={true} offset={0} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
+                <Link to="tokenomics" smooth={true} offset={-50} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
               </li>
 
               <li>
@@ -114,7 +114,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="roadmap" smooth={true} offset={10} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "roadmap" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
+                <Link to="roadmap" smooth={true} offset={-120} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "roadmap" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
               </li>
 
               <div className="block md:hidden">
