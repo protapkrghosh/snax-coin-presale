@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button';
 
 const AboutOrFeatures = () => {
   return (
-    <div className='2xl:pt-[420px] xl:pt-[290px] lg:pt-[240px] md:pt-[120px] pt-[60px] bg-[#194c47] overflow-hidden'>
+    <div className='2xl:pt-[420px] xl:pt-[290px] lg:pt-[240px] md:pt-[120px] pt-[60px] bg-[#194c47] overflow-hidden' id='about'>
       {/* container section  */}
       <div className='relative'>
 

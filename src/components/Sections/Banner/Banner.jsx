@@ -92,7 +92,7 @@ const Banner = () => {
 
 
   return (
-    <div className="lg:mt-[-80px]">
+    <div className="lg:mt-[-80px]" id="home">
       <img src={bgImg} alt="Image" className="md:h-[500px] lg:h-[150vh] xl:h-[155vh] 2xl:h-[140vh] w-full hidden lg:block" />
       <div className="lg:-mt-[670px] xl:-mt-[850px] 2xl:-mt-[1085px] bg-[#295949] lg:bg-transparent">
         <Container>
