@@ -24,66 +24,68 @@ const HowToBuy = () => {
         
         {/* How to buy content */}
         <div>
-          <div className='lg:flex justify-between gap-x-[200px]'>
-            <div className='lg:w-[50%] space-y-[68px]'>
-              {/* Create Wallet */}
-              <div>
-                <div className='z-50'>
-                  <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
+          <div style={{ backgroundImage: `url(${dogBone})` }} className='bg-no-repeat bg-center'>
+            <div className='lg:flex justify-between gap-x-[200px]'>
+              <div className='lg:w-[50%] space-y-[68px]'>
+                {/* Create Wallet */}
+                <div>
+                  <div className='z-50'>
+                    <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
+                  </div>
+
+                  <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
+                    <div className='bg-[#18534f] rounded-[30px] p-[40px]'>
+                      <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Create <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>Wallet</span></h3>
+
+                      <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Download metamask from the app store or google play store for free. Desktoo users, download the aocale chrome I</p>
+                    </div>
+                  </div>
                 </div>
 
-                <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
-                  <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
-                    <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Create <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>Wallet</span></h3>
+                {/* Go to PancakeSwap */}
+                <div>
+                  <div className='z-50'>
+                    <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
+                  </div>
 
-                    <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Download metamask from the app store or google play store for free. Desktoo users, download the aocale chrome I</p>
+                  <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
+                    <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
+                      <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Go to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>PancakeSwap</span></h3>
+
+                      <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Connect to PancakeSwap. Go to PancakeSwap in google chrome or on the browser inside wour lictamark ago. Connect your wallet. Paste the sKillSolana BNB token Smart Contract address (0x4eCd50E&8507204D487555c59851755EF9fFAF9) into PoncokeSwoo, select TWEETY. and confirm. When. metamonk promote uou for a wollet sanature, sion.</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* Go to PancakeSwap */}
-              <div>
-                <div className='z-50'>
-                  <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
-                </div>
+              <div className='lg:w-[50%] space-y-[130px] mt-[183px]'>
+                {/* Get some BNB */}
+                <div>
+                  <div className='z-50'>
+                    <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
+                  </div>
 
-                <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
-                  <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
-                    <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Go to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>PancakeSwap</span></h3>
+                  <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
+                    <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
+                      <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Get some <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>BNB</span></h3>
 
-                    <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Connect to PancakeSwap. Go to PancakeSwap in google chrome or on the browser inside wour lictamark ago. Connect your wallet. Paste the sKillSolana BNB token Smart Contract address (0x4eCd50E&8507204D487555c59851755EF9fFAF9) into PoncokeSwoo, select TWEETY. and confirm. When. metamonk promote uou for a wollet sanature, sion.</p>
+                      <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Have BNB in your wallet to switch to skillSolona. If you don't have any BNB, you con buy directly on metamosk, transfer from another wollet, or buy on another exchange and send it to your wollet.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <div className='lg:w-[50%] space-y-[130px] mt-[183px]'>
-              {/* Get some BNB */}
-              <div>
-                <div className='z-50'>
-                  <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
-                </div>
-
-                <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
-                  <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
-                    <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Get some <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>BNB</span></h3>
-
-                    <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Have BNB in your wallet to switch to skillSolona. If you don't have any BNB, you con buy directly on metamosk, transfer from another wollet, or buy on another exchange and send it to your wollet.</p>
+                {/* Swap BNB for KillSolana */}
+                <div>
+                  <div className='z-50'>
+                    <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
                   </div>
-                </div>
-              </div>
 
-              {/* Swap BNB for KillSolana */}
-              <div>
-                <div className='z-50'>
-                  <img src={dog} alt="Image" className='mx-auto mb-[-10px]' />
-                </div>
+                  <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
+                    <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
+                      <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Swap BNB for <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>KillSolana</span></h3>
 
-                <div className='p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit  z-10'>
-                  <div className='bg-[#18534F] rounded-[30px] p-[40px]'>
-                    <h3 className='text-white text-[28px] lg:leading-[33.6px] lg:tracking-[0.84px]'>Swap BNB for <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>KillSolana</span></h3>
-
-                    <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Switch BNB for #KillSolana. We have ZERO toxes so you don't need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility. HOLD KillSolana BNB for 1000x ATH Growth + s</p>
+                      <p className='text-[#E7D7CB] text-[18px] lg:leading-[28.8px] lg:tracking-[0.54px] mt-[15px] w-[]'>Switch BNB for #KillSolana. We have ZERO toxes so you don't need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility. HOLD KillSolana BNB for 1000x ATH Growth + s</p>
+                    </div>
                   </div>
                 </div>
               </div>
