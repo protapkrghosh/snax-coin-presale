@@ -41,13 +41,16 @@ const AboutOrFeatures = () => {
               <div className='border-[3px] border-dashed rounded-[30px] xl:pl-[50px] lg:pl-[40px] md:pl-[30px] 2xl:pr-[0px] xl:pr-[11px] lg:pr-[11px] md:p-[0px] p-[10px]'>
 
                 <div>
-                  <p className='xl:mt-[60px] lg:mt-[40px] md:mt-[25px] mt-[20px] text-[#FFF] xl:text-[80px] lg:text-[65px] md:text-[35px] text-[25px] lg:leading-[80px] lg:tracking-[2.4px] lg:text-start text-center'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>snax</span></p>
+                  <p className='xl:mt-[60px] lg:mt-[40px] md:mt-[25px] mt-[20px] text-[#FFF] xl:text-[80px] lg:text-[65px] md:text-[35px] text-[25px] lg:leading-[80px] lg:tracking-[2.4px] lg:text-start text-center' data-aos="fade-up"
+                    data-aos-duration="900">About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]' data-aos="fade-up"
+                      data-aos-duration="900">snax</span></p>
 
                   <p className='lg:mt-[30px] md:mt-[20px] mt-[15px] 2xl:w-[92%] xl:w-[90%] text-[#E5DADA] 2xl:text-[20px] xl:text-[18px] lg:text-[19px] md:text-[14px] text-[12px] xl:leading-[36px] lg:leading-[26px] lg:tracking-[0.8px]'>In the enchanting narrative of Snax, the crypto-savvy pup, lies the genesis of Snax Coin, a beacon of innovation in the blockchain realm. Snax Coin's mission is to democratize access to financial opportunities worldwide, fostering a community-driven ecosystem where individuals can transact securely and transparently.</p>
 
                   <p className='lg:mt-[30px] md:mt-[20px] mt-[15px] 2xl:w-[94%] xl:w-[97%] text-[#E5DADA] 2xl:text-[20px] lg:text-[19px] md:text-[14px] text-[12px] xl:leading-[36px] lg:leading-[26px] lg:tracking-[0.8px]'>Visionary and inclusive, Snax Coin aims to reshape the future of finance, empowering users to navigate the digital landscape with confidence. Backed by a dynamic team of cryptocurrency veterans boasting expertise in blockchain technology, finance, and community development, Snax Coin stands poised to revolutionize the crypto space with integrity and purpose.</p>
 
-                  <Button className="lg:mt-[50px] md:mt-[40px] mt-[30px] lg:mb-[60px] md:mb-[40px] mb-[30px] lg:text-[20px] lg:px-[50px] lg:py-[16px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] lg:leading-[30px] lg:tracking-[0.8px] text-[#000] rounded-[10px] duration-300 w-full md:w-fit">More about us</Button>
+                  <Button className="lg:mt-[50px] md:mt-[40px] mt-[30px] lg:mb-[60px] md:mb-[40px] mb-[30px] lg:text-[20px] lg:px-[50px] lg:py-[16px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#f8b415ec] hover:to-[#0fc1c7e8] lg:leading-[30px] lg:tracking-[0.8px] text-[#000] rounded-[10px] duration-300 w-full md:w-fit" data-aos="fade-up"
+                    data-aos-duration="1400">More about us</Button>
 
                 </div>
               </div>
@@ -64,14 +67,16 @@ const AboutOrFeatures = () => {
 
           {/* ------------------- our features section --------------- */}
           <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px] md:pt-[80px] pt-[60px] xl:pb-[125px] lg:pb-[115px] md:pb-[90px] pb-[60px]'>
-            <div>
+            <div data-aos="fade-up"
+              data-aos-duration="500">
               <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] md:text-[35px] text-[30px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
             </div>
 
             <div>
 
               {/* -------- card 1 ---------- */}
-              <div className='2xl:ml-[495px] xl:ml-[380px] lg:ml-[290px] 2xl:w-[96%] xl:w-[85%] lg:w-[85%] 2xl:mt-[70px] xl:mt-[70px] lg:mt-[55px] md:mt-[40px] mt-[35px]'>
+              <div className='2xl:ml-[495px] xl:ml-[380px] lg:ml-[290px] 2xl:w-[96%] xl:w-[85%] lg:w-[85%] 2xl:mt-[70px] xl:mt-[70px] lg:mt-[55px] md:mt-[40px] mt-[35px]' data-aos="fade-up"
+                data-aos-duration="800">
                 <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
 
                 <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[42%] lg:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
@@ -85,7 +90,8 @@ const AboutOrFeatures = () => {
               </div>
 
               {/* --------- card 2 --------- */}
-              <div className='2xl:ml-[-18px] xl:ml-[-18px] lg:ml-[-15px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[120px] xl:mt-[90px] lg:mt-[40px] md:mt-[40px] mt-[20px]'>
+              <div className='2xl:ml-[-18px] xl:ml-[-18px] lg:ml-[-15px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[120px] xl:mt-[90px] lg:mt-[40px] md:mt-[40px] mt-[20px]' data-aos="fade-up"
+     data-aos-duration="1200">
                 <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>no ownership</p>
 
                 <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
@@ -105,7 +111,8 @@ const AboutOrFeatures = () => {
               </div>
 
               {/* -------- card 3 --------- */}
-              <div className='2xl:ml-[1005px] xl:ml-[815px] lg:ml-[615px] 2xl:w-[95%] xl:w-[88%] lg:w-[88%] 2xl:mt-[-225px] xl:mt-[-210px] lg:mt-[-153px] md:mt-[40px] mt-[20px]'>
+              <div className='2xl:ml-[1005px] xl:ml-[815px] lg:ml-[615px] 2xl:w-[95%] xl:w-[88%] lg:w-[88%] 2xl:mt-[-225px] xl:mt-[-210px] lg:mt-[-153px] md:mt-[40px] mt-[20px]' data-aos="fade-up"
+     data-aos-duration="1800">
                 <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>no mint</p>
 
                 <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[34%] lg:w-[34%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
@@ -119,7 +126,8 @@ const AboutOrFeatures = () => {
               </div>
 
               {/* ---------- card 4 ----------*/}
-              <div className='2xl:ml-[495px] xl:ml-[395px] lg:ml-[300px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[50px] xl:mt-[50px] lg:mt-[50px] md:mt-[40px] mt-[20px]'>
+              <div className='2xl:ml-[495px] xl:ml-[395px] lg:ml-[300px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[50px] xl:mt-[50px] lg:mt-[50px] md:mt-[40px] mt-[20px]' data-aos="fade-up"
+     data-aos-duration="2300">
                 <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>Secure</p>
 
                 <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
