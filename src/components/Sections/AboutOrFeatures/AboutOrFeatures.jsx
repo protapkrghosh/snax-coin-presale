@@ -63,39 +63,39 @@ const AboutOrFeatures = () => {
 
 
           {/* ------------------- our features section --------------- */}
-          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px] md:pt-[80px]'>
+          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px] md:pt-[80px] pt-[60px]'>
             <div>
-              <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] md:text-[35px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
+              <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] md:text-[35px] text-[30px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
             </div>
 
             <div>
 
               {/* -------- card 1 ---------- */}
-              <div className='2xl:ml-[495px] xl:ml-[380px] lg:ml-[290px] 2xl:w-[96%] xl:w-[85%] lg:w-[85%] 2xl:mt-[70px] xl:mt-[70px] lg:mt-[55px] md:mt-[40px]'>
-                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
+              <div className='2xl:ml-[495px] xl:ml-[380px] lg:ml-[290px] 2xl:w-[96%] xl:w-[85%] lg:w-[85%] 2xl:mt-[70px] xl:mt-[70px] lg:mt-[55px] md:mt-[40px] mt-[35px]'>
+                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
 
-                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] 2xl:w-[35%] xl:w-[42%] lg:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[42%] lg:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
 
-                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] rounded-[30px] lg:text-start text-center'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] px-[30px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] py-[25px] rounded-[30px] lg:text-start text-center'>
                     <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:text-[12px] md:text-[16px] text-[12px] xl:leading-[28px] xl:tracking-[0.54px]'>There is only 5% tax both for buy and sell and will be spent for marketing purposes only.</p>
                   </div>
 
                 </div>
-                <img className='2xl:mt-[-210px] xl:mt-[-180px] lg:mt-[-120px] md:mt-[-170px] 2xl:ml-[250px] xl:ml-[200px] lg:ml-[175px] md:ml-[485px] 2xl:w-auto xl:w-[22%] lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
+                <img className='hidden md:block 2xl:mt-[-210px] xl:mt-[-180px] lg:mt-[-120px] md:mt-[-170px] 2xl:ml-[250px] xl:ml-[200px] lg:ml-[175px] md:ml-[485px] 2xl:w-auto xl:w-[22%] lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
               </div>
 
               {/* --------- card 2 --------- */}
-              <div className='2xl:ml-[-18px] xl:ml-[-18px] lg:ml-[-15px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[120px] xl:mt-[90px] lg:mt-[40px] md:mt-[40px]'>
-                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] lg:leading-[33px] lg:tracking-[0.84px]'>no ownership</p>
+              <div className='2xl:ml-[-18px] xl:ml-[-18px] lg:ml-[-15px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[120px] xl:mt-[90px] lg:mt-[40px] md:mt-[40px] mt-[20px]'>
+                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>no ownership</p>
 
-                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
 
-                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] rounded-[30px] lg:text-start text-center'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] px-[30px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] py-[25px] rounded-[30px] lg:text-start text-center'>
                     <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:text-[12px] md:text-[16px] text-[12px] xl:leading-[28px] xl:tracking-[0.54px]'>Our smart contract is renounced which means technically no one owns the contract and cannot do execute write functions on it.</p>
                   </div>
 
                 </div>
-                <img className='2xl:mt-[-210px] xl:mt-[-200px] lg:mt-[-140px] md:mt-[-170px] 2xl:ml-[250px] xl:ml-[150px] lg:ml-[140px] md:ml-[485px] 2xl:w-auto xl:w-[22%] lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
+                <img className='hidden md:block 2xl:mt-[-210px] xl:mt-[-200px] lg:mt-[-140px] md:mt-[-170px] 2xl:ml-[250px] xl:ml-[150px] lg:ml-[140px] md:ml-[485px] 2xl:w-auto xl:w-[22%] lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
               </div>
 
 
@@ -105,31 +105,31 @@ const AboutOrFeatures = () => {
               </div>
 
               {/* -------- card 3 --------- */}
-              <div className='2xl:ml-[1005px] xl:ml-[815px] lg:ml-[615px] 2xl:w-[95%] xl:w-[88%] lg:w-[88%] 2xl:mt-[-225px] xl:mt-[-210px] lg:mt-[-153px] md:mt-[40px]'>
-                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] lg:leading-[33px] lg:tracking-[0.84px]'>no mint</p>
+              <div className='2xl:ml-[1005px] xl:ml-[815px] lg:ml-[615px] 2xl:w-[95%] xl:w-[88%] lg:w-[88%] 2xl:mt-[-225px] xl:mt-[-210px] lg:mt-[-153px] md:mt-[40px] mt-[20px]'>
+                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>no mint</p>
 
-                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] 2xl:w-[35%] xl:w-[34%] lg:w-[34%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[34%] lg:w-[34%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
 
-                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] rounded-[30px] lg:text-start text-center'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] px-[30px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] py-[25px] rounded-[30px] lg:text-start text-center'>
                     <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:text-[12px] md:text-[16px] text-[12px] xl:leading-[28px] xl:tracking-[0.54px]'>Our total supply is fixed and cannot be changed and minted more since there is no any mint function in our contract.</p>
                   </div>
 
                 </div>
-                <img className='2xl:mt-[-210px] xl:mt-[-210px] lg:mt-[-125px] md:mt-[-165px] 2xl:ml-[240px] xl:ml-[95px] lg:ml-[120px] md:ml-[485px] 2xl:w-auto xl:w-auto lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
+                <img className='hidden md:block 2xl:mt-[-210px] xl:mt-[-210px] lg:mt-[-125px] md:mt-[-165px] 2xl:ml-[240px] xl:ml-[95px] lg:ml-[120px] md:ml-[485px] 2xl:w-auto xl:w-auto lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
               </div>
 
               {/* ---------- card 4 ----------*/}
-              <div className='2xl:ml-[495px] xl:ml-[395px] lg:ml-[300px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[50px] xl:mt-[50px] lg:mt-[50px] md:mt-[40px]'>
-                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] lg:leading-[33px] lg:tracking-[0.84px]'>Secure</p>
+              <div className='2xl:ml-[495px] xl:ml-[395px] lg:ml-[300px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[50px] xl:mt-[50px] lg:mt-[50px] md:mt-[40px] mt-[20px]'>
+                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] text-[16px] lg:leading-[33px] lg:tracking-[0.84px]'>Secure</p>
 
-                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] mt-[8px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
 
-                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[55px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] rounded-[30px] lg:text-start text-center'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[55px] px-[50px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] py-[25px] rounded-[30px] lg:text-start text-center'>
                     <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:text-[12px] md:text-[16px] text-[12px] xl:leading-[28px] xl:tracking-[0.54px]'>You are completely SAFU. We do have our smart contract audited by Coinsult!</p>
                   </div>
 
                 </div>
-                <img className='2xl:mt-[-210px] xl:mt-[-210px] lg:mt-[-135px] md:mt-[-165px] 2xl:ml-[250px] xl:ml-[140px] lg:ml-[138px] md:ml-[485px] 2xl:w-auto xl:w-auto lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
+                <img className='hidden md:block 2xl:mt-[-210px] xl:mt-[-210px] lg:mt-[-135px] md:mt-[-165px] 2xl:ml-[250px] xl:ml-[140px] lg:ml-[138px] md:ml-[485px] 2xl:w-auto xl:w-auto lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
               </div>
 
 
