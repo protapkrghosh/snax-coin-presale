@@ -15,7 +15,7 @@ const OurWayMoon = () => {
       </div>
 
       <Container>
-        {/* Meme heading */}
+        {/* Moon heading */}
         <div className='flex justify-center mb-5 md:mb-10 lg:mb-0'>
           <div className='flex'>
             <img src={cloud} alt="Image" className='w-[70px] md:w-[170px] lg:w-[200px] xl:w-auto h-[95px] md:h-auto' />

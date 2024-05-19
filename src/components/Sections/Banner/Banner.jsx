@@ -1,4 +1,4 @@
-import bgImg from "@/assets/banner/wireframe.png"
+import bgImg from "@/assets/banner/wireframe1.png"
 import photoFrame from "@/assets/banner/Vector.png"
 import Container from "../Container/Container";
 import { useEffect, useState } from 'react';
