@@ -122,14 +122,14 @@ const AboutOrFeatures = () => {
               <div className='2xl:ml-[495px] xl:ml-[395px] lg:ml-[395px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[50px] xl:mt-[50px] lg:mt-[50px]'>
                 <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] lg:leading-[33px] lg:tracking-[0.84px]'>Secure</p>
 
-                <div className='2xl:mt-[30px] xl:mt-[30px] 2xl:w-[35%] xl:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[30px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
 
-                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] 2xl:py-[30px] xl:py-[25px] rounded-[30px]'>
-                    <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:leading-[28px] lg:tracking-[0.54px]'>You are completely SAFU. We do have our smart contract audited by Coinsult!</p>
+                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] rounded-[30px]'>
+                    <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:text-[12px] xl:leading-[28px] xl:tracking-[0.54px]'>You are completely SAFU. We do have our smart contract audited by Coinsult!</p>
                   </div>
 
                 </div>
-                <img className='2xl:mt-[-210px] xl:mt-[-210px] 2xl:ml-[250px] xl:ml-[140px] 2xl:w-auto xl:w-auto' src={featuresCardImg} alt="image" />
+                <img className='2xl:mt-[-210px] xl:mt-[-210px] lg:mt-[-210px] 2xl:ml-[250px] xl:ml-[140px] lg:ml-[140px] 2xl:w-auto xl:w-auto lg:w-auto' src={featuresCardImg} alt="image" />
               </div>
 
 
