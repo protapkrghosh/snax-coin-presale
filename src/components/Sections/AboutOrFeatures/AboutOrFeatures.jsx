@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../Container/Container';
-import aboutImg from '@/assets/about/Group 1171275232 (1).png';
+import aboutImg from '@/assets/about/Group 1171275232.png';
 import aboutImgleftShadow from '@/assets/about/Group 1171275238.png';
 import aboutImgRightShadow from '@/assets/about/Dinosaur-bone-vector-art-illustration-Graphics-37857416-2-580x387.png';
 // ourfeatures
