@@ -74,11 +74,11 @@ const AboutOrFeatures = () => {
                 data-aos-duration="500">
                 <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] md:text-[35px] text-[30px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
 
-                <img className='absolute 2xl:left-[380px] xl:left-[260px] lg:left-[270px] md:left-[202px] 2xl:top-[-40px] xl:top-[-30px] lg:top-[2px] md:top-[-2px] 2xl:w-auto xl:w-[20%] lg:w-[15%] md:w-[15%]' src={featuresTitleShadow} alt="image" />
+                <img className='absolute 2xl:left-[380px] xl:left-[260px] lg:left-[270px] md:left-[202px] left-[75px] 2xl:top-[-40px] xl:top-[-30px] lg:top-[2px] md:top-[-2px] top-[-2px] 2xl:w-auto xl:w-[20%] lg:w-[15%] md:w-[15%] w-[22%]' src={featuresTitleShadow} alt="image" />
 
                 {/* cloud image  */}
 
-                <img className='absolute 2xl:right-[-220px] xl:right-[-140px] lg:right-[-100px] md:right-[-80px] 2xl:top-[-100px] xl:top-[-50px] lg:top-[-40px] md:top-[-40px] 2xl:w-[30%] xl:w-[25%] lg:w-[28%] md:w-[28%]' src={featuresCloud} alt="image" />
+                <img className='absolute 2xl:right-[-220px] xl:right-[-140px] lg:right-[-100px] md:right-[-80px] right-[-40px] 2xl:top-[-100px] xl:top-[-50px] lg:top-[-40px] md:top-[-40px] top-[-30px] 2xl:w-[30%] xl:w-[25%] lg:w-[28%] md:w-[28%] w-[28%]' src={featuresCloud} alt="image" />
               </div>
 
               <div>
