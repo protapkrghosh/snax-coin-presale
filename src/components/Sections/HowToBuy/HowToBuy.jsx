@@ -67,10 +67,10 @@ const HowToBuy = () => {
 
 
             {/* ----------- card 3 --------- */}
-            <div className='2xl:mt-[-860px] 2xl:ml-[4px] 2xl:space-y-[-10px]'>
+            <div className='2xl:mt-[-830px] 2xl:ml-[4px] 2xl:space-y-[-10px]'>
               <img className='2xl:ml-[240px] 2xl:w-auto' src={cardImage} alt="image" />
 
-              <div className='2xl:w-[43%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+              <div className='2xl:w-[44%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
                 <div className='bg-[#18534f] 2xl:p-[40px] rounded-[30px]'>
                   <p className='text-[#FFF] text-[28px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Go to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>PancakeSwap</span></p>
                   <p className='2xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:leading-[28.8px] xl:tracking-[0.54px]'>Connect to PancakeSwap. Go to PancakeSwap in google chrome or on the browser inside wour lictamark ago. Connect your wallet. Paste the sKillSolana BNB token Smart Contract address (0x4eCd50E&8507204D487555c59851755EF9fFAF9) into PoncokeSwoo, select TWEETY. and confirm. When. metamonk promote uou for a wollet sanature, sion.</p>
@@ -78,7 +78,7 @@ const HowToBuy = () => {
               </div>
               {/* card shadow image  */}
               <div>
-                <img className='2xl:mt-[-220px] 2xl:ml-[420px] 2xl:w-auto' src={cardImageShadow} alt="image" />
+                <img className='2xl:mt-[-220px] 2xl:ml-[440px] 2xl:w-auto' src={cardImageShadow} alt="image" />
               </div>
 
             </div>
