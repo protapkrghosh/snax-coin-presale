@@ -46,47 +46,57 @@ const TokenInformation = () => {
               <div className='lg:w-[50%] relative'>
                 <img src={dog} alt="Image" className='mb-[-28px] md:mb-[-35px] xl:mb-[-40px] 2xl:mb-[-65px] ml-[-10px] md:ml-[-18px] w-[40px] md:w-[60px] xl:w-[85px] 2xl:w-auto z-10' />
                 {/* Shadow */}
-                <div className='w-[150px] xl:w-[250px] h-[150px] xl:h-[250px] absolute top-52 left-20 tokenShadow hidden md:block'/>
+                <div className='w-[150px] xl:w-[250px] h-[150px] xl:h-[250px] absolute top-52 left-20 tokenShadow hidden md:block' />
 
                 <div className='p-[20px] md:p-[25px] xl:p-[40px] 2xl:p-[60px] border-[2px] md:border-[3px] border-dashed border-[#fff] rounded-[30px] w-fit'>
-                  <h1 className='text-white text-[30px] md:text-[40px] lg:leading-[40px] lg:tracking-[1.2px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>token</span> information</h1>
+                  <h1 className='text-white text-[30px] md:text-[40px] lg:leading-[40px] lg:tracking-[1.2px]' data-aos="fade-up"
+                    data-aos-duration="500"><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]' data-aos="fade-up"
+                      data-aos-duration="500">token</span> information</h1>
 
                   <div className='text-[#E7D7CB] text-[14px] md:text-[16px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>
-                    <p className='lg:leading-[30.6px] lg:tracking-[0.72px] mt-[25px] xl:mt-[30px] mb-[16px]'>snax tokenomics include smart staking rewards, <br /> meaning you can earn right away.</p>
+                    <p className='lg:leading-[30.6px] lg:tracking-[0.72px] mt-[25px] xl:mt-[30px] mb-[16px]' data-aos="fade-up"
+                      data-aos-duration="700">snax tokenomics include smart staking rewards, <br /> meaning you can earn right away.</p>
 
                     <div className='space-y-[16px]'>
-                      <div className='flex items-center'>
-                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto'/>
+                      <div className='flex items-center' data-aos="fade-up"
+                        data-aos-duration="900">
+                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto' />
                         <p className='lg:tracking-[0.54px] ml-[15px]'>25% of supply sold in presale</p>
                       </div>
 
-                      <div className='flex items-center'>
-                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto'/>
+                      <div className='flex items-center' data-aos="fade-up"
+                        data-aos-duration="1100">
+                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto' />
                         <p className='lg:tracking-[0.54px] ml-[15px]'>25% allocated to marketing</p>
                       </div>
 
-                      <div className='flex items-center'>
-                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto'/>
+                      <div className='flex items-center' data-aos="fade-up"
+                        data-aos-duration="1300">
+                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto' />
                         <p className='lg:tracking-[0.54px] ml-[15px]'>25% for the project treasury</p>
                       </div>
 
-                      <div className='flex items-center'>
-                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto'/>
+                      <div className='flex items-center' data-aos="fade-up"
+                        data-aos-duration="1500">
+                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto' />
                         <p className='lg:tracking-[0.54px] ml-[15px]'>15% used for staking rewards</p>
                       </div>
 
-                      <div className='flex items-center'>
-                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto'/>
+                      <div className='flex items-center' data-aos="fade-up"
+                        data-aos-duration="1700">
+                        <img src={dot6} alt="Image" className='w-[15px] md:w-auto lg:w-[16px] xl:w-auto' />
                         <p className='lg:tracking-[0.54px] ml-[15px]'>10% for exchange liquidity</p>
                       </div>
                     </div>
                   </div>
 
-                  <p className='text-white xl:text-[18px] lg:tracking-[0.54px] mt-[30px] xl:mt-[42px] mb-[15px]'>snax token adress</p>
+                  <p className='text-white xl:text-[18px] lg:tracking-[0.54px] mt-[30px] xl:mt-[42px] mb-[15px]' data-aos="fade-up"
+                    data-aos-duration="1900">snax token adress</p>
 
                   {/* Copied text */}
                   <div className='mt-[30px] flex justify-center md:justify-start'>
-                    <div className="bg-gradient-to-l to-[#1cb1ae] from-[#ac9429] p-[1px] rounded-[5px]">
+                    <div className="bg-gradient-to-l to-[#1cb1ae] from-[#ac9429] p-[1px] rounded-[5px]" data-aos="fade-up"
+                      data-aos-duration="2300">
                       <div className="flex justify-center items-center text-[13px] md:text-[18px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] bg-gradient-to-l to-[#276e62] from-[#3a6246] p-[6px] xl:p-2 2xl:p-3 rounded-md">
                         <p className="text-[#fff] mr-2 md:mr-5 lg:leading-[30.6px] lg:tracking-[0.72px]">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                         <button onClick={() => { setCopied(!copied); copyLink() }}>
@@ -105,7 +115,7 @@ const TokenInformation = () => {
               <div className='lg:w-[50%] mt-14 lg:mt-0'>
                 <div className='md:flex justify-between items-center gap-x-5 xl:gap-x-16'>
                   <div className='relative'>
-                    <img src={chart} alt="Image" className='xl:scale-110 2xl:scale-100'/>
+                    <img src={chart} alt="Image" className='xl:scale-110 2xl:scale-100' />
 
                     <div className='text-white text-[18px] lg:text-[15px] xl:text-[20px] lg:tracking-[0.6px]'>
                       <p className='absolute top-[18px] md:top-[43px] lg:top-[20px] xl:top-[5px] 2xl:top-[38px] left-16 md:left-[110px] lg:left-[62px] xl:left-[60px] 2xl:left-24'>10%</p>
