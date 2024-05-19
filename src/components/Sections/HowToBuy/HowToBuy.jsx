@@ -85,6 +85,27 @@ const HowToBuy = () => {
 
 
 
+
+
+            {/* ----------- card 4 --------- */}
+            <div className='2xl:mt-[-170px] 2xl:ml-[860px] 2xl:space-y-[-10px]'>
+              <img className='2xl:ml-[240px] 2xl:w-auto' src={cardImage} alt="image" />
+
+              <div className='2xl:w-[100%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='bg-[#18534f] 2xl:p-[40px] rounded-[30px]'>
+                  <p className='text-[#FFF] text-[28px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Swap BNB for <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>KillSolana</span></p>
+                  <p className='2xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:leading-[28.8px] xl:tracking-[0.54px]'>Switch BNB for #KillSolana. We have ZERO toxes so you don't need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility. HOLD KillSolana BNB for 1000x ATH Growth + s</p>
+                </div>
+              </div>
+              {/* card shadow image  */}
+              <div>
+                <img className='2xl:mt-[-220px] 2xl:ml-[415px] 2xl:w-auto' src={cardImageShadow} alt="image" />
+              </div>
+
+            </div>
+
+
+
           </div>
 
         </Container>
