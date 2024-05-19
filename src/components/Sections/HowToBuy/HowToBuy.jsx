@@ -7,50 +7,50 @@ import cardImageShadow from '@/assets/howToBuy/Group 1171275247.png';
 
 const HowToBuy = () => {
   return (
-    <div className='2xl:mt-[248px]'>
+    <div className='2xl:mt-[248px] xl:mt-[220px]'>
       <div className='relative'>
         <Container>
 
           {/* ------ title section ----------- */}
           <div>
             <h1 className='text-[#FFF] text-center text-[80px] lg:leading-[88px] lg:tracking-[2.4px]'>How to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>buy?</span></h1>
-            <img className='absolute 2xl:w-auto 2xl:top-[-40px] 2xl:left-[610px]' src={claud} alt="image" />
+            <img className='absolute 2xl:w-auto xl:w-auto 2xl:top-[-40px] xl:top-[-40px] 2xl:left-[610px] xl:left-[340px]' src={claud} alt="image" />
           </div>
 
 
           {/* ------------ contain section -------------- */}
-          <div className='2xl:mt-[85px]'>
+          <div className='2xl:mt-[85px] xl:mt-[85px]'>
 
             {/* ----------- card 1 --------- */}
-            <div className='2xl:ml-[4px] 2xl:space-y-[-10px]'>
-              <img className='2xl:ml-[240px] 2xl:w-auto' src={cardImage} alt="image" />
+            <div className='2xl:ml-[4px] xl:ml-[4px] 2xl:space-y-[-10px] xl:space-y-[-10px]'>
+              <img className='2xl:ml-[240px] xl:ml-[240px] 2xl:w-auto xl:w-auto' src={cardImage} alt="image" />
 
-              <div className='2xl:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
-                <div className='bg-[#18534f] 2xl:p-[40px] rounded-[30px]'>
-                  <p className='text-[#FFF] text-[28px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Create <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>Wallet</span></p>
-                  <p className='2xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:leading-[28.8px] xl:tracking-[0.54px]'>Download metamask from the app store or google play store for free. Desktoo users, download the aocale chrome I</p>
+              <div className='2xl:w-[42%] xl:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='bg-[#18534f] 2xl:p-[40px] xl:p-[30px] rounded-[30px]'>
+                  <p className='text-[#FFF] 2xl:text-[28px] xl:text-[24px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Create <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>Wallet</span></p>
+                  <p className='2xl:mt-[15px] xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] 2xl:leading-[28.8px] 2xl:tracking-[0.54px]'>Download metamask from the app store or google play store for free. Desktoo users, download the aocale chrome I</p>
                 </div>
               </div>
               {/* card shadow image  */}
               <div>
-                <img className='2xl:mt-[-220px] 2xl:ml-[410px] 2xl:w-auto' src={cardImageShadow} alt="image" />
+                <img className='2xl:mt-[-220px] xl:mt-[-220px] 2xl:ml-[410px] xl:ml-[410px] 2xl:w-auto xl:w-auto' src={cardImageShadow} alt="image" />
               </div>
 
             </div>
 
             {/* ----------- card 2 --------- */}
-            <div className='2xl:mt-[-170px] 2xl:ml-[860px] 2xl:space-y-[-10px]'>
-              <img className='2xl:ml-[240px] 2xl:w-auto' src={cardImage} alt="image" />
+            <div className='2xl:mt-[-170px] xl:mt-[-170px] 2xl:ml-[860px] xl:ml-[860px] 2xl:space-y-[-10px] xl:space-y-[-10px]'>
+              <img className='2xl:ml-[240px] xl:ml-[240px] 2xl:w-auto xl:w-auto' src={cardImage} alt="image" />
 
-              <div className='2xl:w-[100%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
-                <div className='bg-[#18534f] 2xl:p-[40px] rounded-[30px]'>
-                  <p className='text-[#FFF] text-[28px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Get some <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>BNB</span></p>
-                  <p className='2xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:leading-[28.8px] xl:tracking-[0.54px]'>Have BNB in your wallet to switch to skillSolona. If you don't have any BNB, you con buy directly on metamosk, transfer from another wollet, or buy on another exchange and send it to your wollet.</p>
+              <div className='2xl:w-[100%] xl:w-[100%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='bg-[#18534f] 2xl:p-[40px] xl:p-[30px] rounded-[30px]'>
+                  <p className='text-[#FFF] 2xl:text-[28px] xl:text-[24px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Get some <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>BNB</span></p>
+                  <p className='2xl:mt-[15px] xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] 2xl:leading-[28.8px] 2xl:tracking-[0.54px]'>Have BNB in your wallet to switch to skillSolona. If you don't have any BNB, you con buy directly on metamosk, transfer from another wollet, or buy on another exchange and send it to your wollet.</p>
                 </div>
               </div>
               {/* card shadow image  */}
               <div>
-                <img className='2xl:mt-[-220px] 2xl:ml-[415px] 2xl:w-auto' src={cardImageShadow} alt="image" />
+                <img className='2xl:mt-[-220px] xl:mt-[-220px] 2xl:ml-[415px] xl:ml-[415px] 2xl:w-auto xl:w-auto' src={cardImageShadow} alt="image" />
               </div>
 
             </div>
@@ -58,8 +58,8 @@ const HowToBuy = () => {
 
 
             {/* ---------------- main images ---------------- */}
-            <div className='2xl:mt-[-540px]'>
-              <img className='mx-auto 2xl:pl-[15px] 2xl:w-[50%]' src={howToImg} alt="image" />
+            <div className='2xl:mt-[-540px] xl:mt-[-540px]'>
+              <img className='mx-auto 2xl:pl-[15px] xl:pl-[15px] 2xl:w-[50%] xl:w-[50%]' src={howToImg} alt="image" />
             </div>
 
 
@@ -114,4 +114,4 @@ const HowToBuy = () => {
   );
 };
 
-export default HowToBuy;
+export default HowToBuy
