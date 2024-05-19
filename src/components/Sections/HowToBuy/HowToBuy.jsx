@@ -33,16 +33,16 @@ const HowToBuy = () => {
               </div>
               {/* card shadow image  */}
               <div>
-                <img className='2xl:mt-[-220px] 2xl:ml-[380px] 2xl:w-auto' src={cardImageShadow} alt="image" />
+                <img className='2xl:mt-[-220px] 2xl:ml-[410px] 2xl:w-auto' src={cardImageShadow} alt="image" />
               </div>
 
             </div>
 
             {/* ----------- card 2 --------- */}
-            <div className='2xl:mt-[-170px] 2xl:ml-[880px] 2xl:space-y-[-10px]'>
+            <div className='2xl:mt-[-170px] 2xl:ml-[860px] 2xl:space-y-[-10px]'>
               <img className='2xl:ml-[240px] 2xl:w-auto' src={cardImage} alt="image" />
 
-              <div className='2xl:w-[105%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+              <div className='2xl:w-[100%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
                 <div className='bg-[#18534f] 2xl:p-[40px] rounded-[30px]'>
                   <p className='text-[#FFF] text-[28px] xl:leading-[33.6px] xl:tracking-[0.84px]'>Get some <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>BNB</span></p>
                   <p className='2xl:mt-[15px] text-[#E7D7CB] 2xl:text-[18px] xl:leading-[28.8px] xl:tracking-[0.54px]'>Have BNB in your wallet to switch to skillSolona. If you don't have any BNB, you con buy directly on metamosk, transfer from another wollet, or buy on another exchange and send it to your wollet.</p>
@@ -50,7 +50,7 @@ const HowToBuy = () => {
               </div>
               {/* card shadow image  */}
               <div>
-                <img className='2xl:mt-[-220px] 2xl:ml-[395px] 2xl:w-auto' src={cardImageShadow} alt="image" />
+                <img className='2xl:mt-[-220px] 2xl:ml-[415px] 2xl:w-auto' src={cardImageShadow} alt="image" />
               </div>
 
             </div>
@@ -58,7 +58,7 @@ const HowToBuy = () => {
 
 
             {/* ---------------- main images ---------------- */}
-            <div className='2xl:mt-[-560px]'>
+            <div className='2xl:mt-[-540px]'>
               <img className='mx-auto 2xl:pl-[15px] 2xl:w-[50%]' src={howToImg} alt="image" />
             </div>
 
