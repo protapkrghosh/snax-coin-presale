@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 import aboutImg from '@/assets/about/Group 1171275232.png';
 import aboutImgleftShadow from '@/assets/about/Group 1171275238.png';
 import aboutImgRightShadow from '@/assets/about/Dinosaur-bone-vector-art-illustration-Graphics-37857416-2-580x387.png';
-// --------- ourfeatures -------
+// --------- ourfeatures --------
 import featuresTitleShadow from '@/assets/ourFeatures/Group 1171275247.png';
 import featuresCloud from '@/assets/ourFeatures/Group.png';
 import featuresMainCenterImg from '@/assets/ourFeatures/Group 1171275245.png';
