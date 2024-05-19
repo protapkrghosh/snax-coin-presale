@@ -63,29 +63,29 @@ const AboutOrFeatures = () => {
 
 
           {/* ------------------- our features section --------------- */}
-          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px]'>
+          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px] md:pt-[80px]'>
             <div>
-              <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
+              <h1 className='text-white 2xl:text-[80px] xl:text-[75px] lg:text-[40px] md:text-[35px] text-center lg:leading-[80px] lg:tracking-2.4px'>our <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>features </span></h1>
             </div>
 
             <div>
 
               {/* -------- card 1 ---------- */}
-              <div className='2xl:ml-[495px] xl:ml-[380px] lg:ml-[290px] 2xl:w-[96%] xl:w-[85%] lg:w-[85%] 2xl:mt-[70px] xl:mt-[70px] lg:mt-[55px]'>
-                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
+              <div className='2xl:ml-[495px] xl:ml-[380px] lg:ml-[290px] 2xl:w-[96%] xl:w-[85%] lg:w-[85%] 2xl:mt-[70px] xl:mt-[70px] lg:mt-[55px] md:mt-[40px]'>
+                <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] md:text-[18px] lg:leading-[33px] lg:tracking-[0.84px]'>best tax</p>
 
-                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] 2xl:w-[35%] xl:w-[42%] lg:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
+                <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] md:mt-[10px] 2xl:w-[35%] xl:w-[42%] lg:w-[42%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
 
-                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] rounded-[30px]'>
+                  <div className='bg-[#18534f] 2xl:px-[40px] xl:px-[30px] lg:px-[20px] md:px-[40px] 2xl:py-[30px] xl:py-[25px] lg:py-[18px] md:py-[30px] rounded-[30px] lg:text-start text-center'>
                     <p className='text-[#E7D7CB] 2xl:text-[18px] xl:text-[14px] lg:text-[12px] xl:leading-[28px] xl:tracking-[0.54px]'>There is only 5% tax both for buy and sell and will be spent for marketing purposes only.</p>
                   </div>
 
                 </div>
-                <img className='2xl:mt-[-210px] xl:mt-[-180px] lg:mt-[-120px] 2xl:ml-[250px] xl:ml-[200px] lg:ml-[175px] 2xl:w-auto xl:w-[22%] lg:w-[19%]' src={featuresCardImg} alt="image" />
+                <img className='2xl:mt-[-210px] xl:mt-[-180px] lg:mt-[-120px] md:mt-[-170px] 2xl:ml-[250px] xl:ml-[200px] lg:ml-[175px] md:ml-[485px] 2xl:w-auto xl:w-[22%] lg:w-[19%] md:w-[30%]' src={featuresCardImg} alt="image" />
               </div>
 
               {/* --------- card 2 --------- */}
-              <div className='2xl:ml-[-18px] xl:ml-[-18px] lg:ml-[-15px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[120px] xl:mt-[90px] lg:mt-[40px]'>
+              <div className='2xl:ml-[-18px] xl:ml-[-18px] lg:ml-[-15px] 2xl:w-[96%] xl:w-[96%] lg:w-[96%] 2xl:mt-[120px] xl:mt-[90px] lg:mt-[40px] md:mt-[70px]'>
                 <p className='text-[#FFF] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] lg:leading-[33px] lg:tracking-[0.84px]'>no ownership</p>
 
                 <div className='2xl:mt-[30px] xl:mt-[30px] lg:mt-[20px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] p-[1px] bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-[30px] w-fit'>
@@ -150,4 +150,4 @@ const AboutOrFeatures = () => {
   );
 };
 
-export default AboutOrFeatures;
+export default AboutOrFeatures
