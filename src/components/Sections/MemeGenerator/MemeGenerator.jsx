@@ -14,7 +14,7 @@ const MemeGenerator = () => {
             <div className='flex'>
               <img src={cloud} alt="Image" className='w-[70px] md:w-[170px] lg:w-[200px] xl:w-auto h-[95px] md:h-auto' />
               <h1 data-aos="fade-up"
-                data-aos-duration="800" className='text-white text-[30px] md:text-[45px] lg:text-[60px] xl:text-[80px] text-center lg:leading-[88px] lg:tracking-[2.4px] mt-3 md:mt-5 lg:mt-5 xl:mt-10 ml-[-50px] md:ml-[-105px] lg:ml-[-140px] xl:ml-[-185px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>meme </span> ge4nerator</h1>
+                data-aos-duration="800" className='text-white text-[30px] md:text-[45px] lg:text-[60px] xl:text-[80px] text-center lg:leading-[88px] lg:tracking-[2.4px] mt-3 md:mt-5 lg:mt-5 xl:mt-10 ml-[-50px] md:ml-[-105px] lg:ml-[-140px] xl:ml-[-185px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7]'>meme </span> generator</h1>
             </div>
             <img src={grass} alt="Image" className='h-fit ml-4 md:ml-10 w-[45px] lg:w-[80px] xl:w-auto' />
           </div>
