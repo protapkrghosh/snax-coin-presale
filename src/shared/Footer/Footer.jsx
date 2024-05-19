@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='xl:pt-[109px]'>
+    <div className='xl:pt-[109px] md:mb-20 xl:mb-40'>
       <div className='flex justify-between items-center'>
         <img src={img2} alt="Image" className='w-[100px] lg:w-[180px] xl:w-[250px] opacity-80 md:-mb-24 lg:-mb-10 xl:mb-0 hidden md:block' />
 
