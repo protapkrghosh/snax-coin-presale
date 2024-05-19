@@ -67,7 +67,7 @@ const AboutOrFeatures = () => {
 
 
           {/* ------------------- our features section --------------- */}
-          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px] md:pt-[80px] pt-[60px] xl:pb-[125px] lg:pb-[115px] md:pb-[90px] pb-[60px]'>
+          <div className='2xl:pt-[170px] xl:pt-[160px] lg:pt-[100px] md:pt-[80px] pt-[60px] xl:pb-[150px] lg:pb-[115px] md:pb-[90px] pb-[60px]'>
             <div className='relative'>
 
               <div data-aos="fade-up"
