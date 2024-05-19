@@ -28,30 +28,36 @@ const OurWayMoon = () => {
         <div className='md:relative grid grid-cols-2 md:grid-cols-none gap-x-8 md:gap-x-0'>
           {/* PHASE ONE */}
           <div className='md:absolute top-10 md:top-[-40px] lg:top-[-20px] xl:top-10 right-[160px] md:right-[130px] lg:right-[180px] xl:right-[270px] 2xl:right-[420px]'>
-            <h3 className='text-white text-[26px] md:text-[28px] lg:text-[30px] xl:text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[10px] xl:mb-[15px]'>PHASE 1</h3>
+            <h3 className='text-white text-[26px] md:text-[28px] lg:text-[30px] xl:text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[10px] xl:mb-[15px]' data-aos="fade-up"
+              data-aos-duration="800">PHASE 1</h3>
 
             <div className='text-[#B6D4D4] text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[5px] lg:space-y-[5px] xl:space-y-[10px] 2xl:space-y-[15px]'>
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>PancakeSwap Listing</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1200">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>CoinMarketCap Listing</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1400">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Trending in BSC</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1600">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>Coincecko isung</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1800">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>Coincecko isung</p>
               </div>
@@ -60,25 +66,30 @@ const OurWayMoon = () => {
 
           {/* PHASE TWO */}
           <div className='md:absolute top-[300px] md:top-[210px] lg:top-[300px] xl:top-[410px] 2xl:top-[545px] md:left-[15px] lg:left-[35px] xl:left-[120px] 2xl:left-[200px]'>
-            <h3 className='text-white text-[26px] md:text-[28px] lg:text-[30px] xl:text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[10px] xl:mb-[15px]'>PHASE 2</h3>
+            <h3 className='text-white text-[26px] md:text-[28px] lg:text-[30px] xl:text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[10px] xl:mb-[15px]' data-aos="fade-up"
+              data-aos-duration="800">PHASE 2</h3>
 
             <div className='text-[#B6D4D4] text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[10px] lg:space-y-[5px] xl:space-y-[10px] 2xl:space-y-[15px]'>
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Extreme Marketing Push</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1200">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Donations (Ongoing)</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1400">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Tiers 2 CEX Listing</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1600">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>5.000 Holders</p>
               </div>
@@ -88,35 +99,42 @@ const OurWayMoon = () => {
 
           {/* PHASE THREE */}
           <div className='md:absolute md:bottom-[10px] lg:bottom-[50px] xl:bottom-[65px] 2xl:bottom-32 md:right-[-20px] lg:right-[0px] xl:right-[35px] 2xl:right-[105px] mt-8 md:mt-0'>
-            <h3 className='text-white text-[26px] md:text-[28px] lg:text-[30px] xl:text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[10px] xl:mb-[15px]'>PHASE 3</h3>
+            <h3 className='text-white text-[26px] md:text-[28px] lg:text-[30px] xl:text-[34px] lg:leading-[47.6px] tracking-[1.02px] mb-[10px] xl:mb-[15px]' data-aos="fade-up"
+              data-aos-duration="800">PHASE 3</h3>
 
             <div className='text-[#B6D4D4] text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] lg:leading-[25.6px] lg:tracking-[0.64px] space-y-[10px] lg:space-y-[5px] xl:space-y-[15px]'>
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Charities</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1200">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Influencer Awareness</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1400">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-white rounded-full mr-[10px]' />
                 <p>Update Marketing</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1600">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>50,000 Holders</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="1800">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>Staking Pool Expansion</p>
               </div>
 
-              <div className='flex items-center'>
+              <div className='flex items-center' data-aos="fade-up"
+                data-aos-duration="2000">
                 <div className='w-2 lg:w-3 h-2 lg:h-3 bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] rounded-full mr-[10px]' />
                 <p>Introducing Mars Map</p>
               </div>
@@ -124,7 +142,7 @@ const OurWayMoon = () => {
           </div>
 
           {/* Section Image */}
-          <img src={shape} alt="Image" className='hidden md:block'/>
+          <img src={shape} alt="Image" className='hidden md:block' />
         </div>
       </Container>
     </div>
