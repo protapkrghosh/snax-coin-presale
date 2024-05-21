@@ -27,7 +27,7 @@ const MemeGenerator = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="700">
                 <div className='bg-[#18534f] rounded-[30px]'>
-                  <img src={dogSm} alt="Image" className='' />
+                  <img src={dogSm} alt="Image" className='w-[85%] md:w-auto mx-auto md:mx-0' />
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ const MemeGenerator = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1100">
                 <div className='bg-[#18534f] rounded-[30px]'>
-                  <img src={dogLg} alt="Image" className='' />
+                  <img src={dogLg} alt="Image" className='w-[85%] md:w-auto mx-auto md:mx-0' />
                 </div>
               </div>
             </div>
@@ -46,7 +46,8 @@ const MemeGenerator = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="900">
                 <div className='bg-[#18534f] rounded-[30px]'>
-                  <img src={dogLg} alt="Image" className='' />
+                  <img src={dogLg} alt="Image" className='hidden md:block' />
+                  <img src={dogSm} alt="Image" className='w-[85%] md:w-auto mx-auto md:mx-0 block md:hidden' />
                 </div>
               </div>
 
@@ -54,7 +55,8 @@ const MemeGenerator = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1300">
                 <div className='bg-[#18534f] rounded-[30px]'>
-                  <img src={dogSm} alt="Image" className='' />
+                  <img src={dogSm} alt="Image" className='w-[85%] md:w-auto mx-auto md:mx-0 hidden md:block' />
+                  <img src={dogLg} alt="Image" className='block md:hidden' />
                 </div>
               </div>
             </div>
@@ -65,7 +67,7 @@ const MemeGenerator = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="900">
                 <div className='bg-[#18534f] rounded-[30px]'>
-                  <img src={dogSm} alt="Image" className='' />
+                  <img src={dogSm} alt="Image" className='w-[85%] md:w-auto mx-auto md:mx-0' />
                 </div>
               </div>
 
@@ -73,7 +75,7 @@ const MemeGenerator = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1500">
                 <div className='bg-[#18534f] rounded-[30px]'>
-                  <img src={dogLg} alt="Image" className='' />
+                  <img src={dogLg} alt="Image" className='w-[85%] md:w-auto mx-auto md:mx-0' />
                 </div>
               </div>
             </div>

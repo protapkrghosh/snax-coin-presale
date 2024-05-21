@@ -110,7 +110,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="buy" smooth={true} offset={0} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "buy" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
+                <Link to="buy" smooth={true} offset={-170} duration={600} className={`xl:text-[18px] duration-300 cursor-pointer lg:leading-[27px] lg:tracking-[0.72px] ${activeLink === "buy" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#F8B515] to-[#0FC1C7] hover:from-[#F8B515] hover:to-[#0FC1C7]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#E0E0E0] to-[#E0E0E0] hover:from-[#F8B515] hover:to-[#0FC1C7] duration-300'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
               </li>
 
               <li>
