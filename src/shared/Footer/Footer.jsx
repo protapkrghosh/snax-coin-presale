@@ -8,9 +8,9 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='xl:pt-[109px] md:mb-20 xl:mb-40'>
+    <div className='xl:pt-[109px]'>
       <div className='flex justify-between items-center'>
-        <img src={img2} alt="Image" className='w-[100px] lg:w-[180px] xl:w-[250px] opacity-80 md:-mb-24 lg:-mb-10 xl:mb-0 hidden md:block' />
+        <img src={img2} alt="Image" className='w-[100px] lg:w-[180px] xl:w-[250px] opacity-80 md:-mb-24 lg:-mb-12 xl:mb-0 hidden md:block' />
 
         {/* Social media action buttons */}
         <div className='mb-7'>
@@ -50,7 +50,7 @@ const Footer = () => {
           <p className='text-[#E7D7CB] lg:text-[18px] text-center lg:leading-[28.8px] tracking-[0.54px] w-[80%] md:w-full mx-auto md:mx-0'>© {new Date().getFullYear()} by snax. All rights reserved! Powered by Tenset</p>
         </div>
 
-        <img src={img1} alt="Image" className='w-[100px] lg:w-[180px] xl:w-[250px] opacity-80 md:-mb-24 lg:-mb-10 xl:mb-0 hidden md:block' />
+        <img src={img1} alt="Image" className='w-[100px] lg:w-[180px] xl:w-[250px] opacity-80 md:-mb-24 lg:-mb-10 xl:-mb-2 hidden md:block' />
       </div>
     </div>
   );
